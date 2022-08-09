@@ -16,11 +16,11 @@ li{
     justify-content: center;
     align-items: center;
 }
-body{
-    overflow: hidden;
-}
 .small-box-shadow{
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+body{
+    position: relative;
 }
 
 
@@ -32,9 +32,9 @@ font-family: 'Uchen', serif; */
 
 /* navbar css start ---------------------------------------- */
 .navbar{
-    position: fixed;
     width: 100%;
-    height: 100px;
+    background: white;
+    height: 15vh;
     padding: 0px 100px !important;
 }
 .navbar .logo{
@@ -73,8 +73,7 @@ font-family: 'Uchen', serif; */
 /* home css start -----------------------------------------------------  */
 .home{
     width: 100%;
-    height: 100vh;
-    margin: 10px 250px;
+    height: 85vh;
     margin: auto !important;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 41%, rgba(228,228,228,1) 70%);
@@ -84,6 +83,11 @@ font-family: 'Uchen', serif; */
     width: 100%;
     padding: 5px 25px;
     position: relative;
+}
+.home .left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .home .left-section .image{
     width: 70%;
@@ -119,9 +123,76 @@ font-family: 'Uchen', serif; */
     right: 30px;
 }
 
-font-family: 'Oleo Script Swash Caps', cursive;
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide .lottie {
+    display: block;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+/* font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Roboto', sans-serif;
-font-family: 'Uchen', serif;
+font-family: 'Uchen', serif; */
 
 
 /* home css end -----------------------------------------------------  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* about css start ************************************  */
+.about{
+    width: 100%;
+    /* height: 100vh !important; */
+    padding: 40px 10px 10px 10px !important;
+}
+.about .left-section img{
+    width: 100%;
+    height: 100%;
+}
+.about .right-section{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+    justify-content: center;
+}
+.about .right-section h4{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Tiro Gurmukhi', serif;
+    margin-bottom: 0px;
+    color: #00aaae;
+}
+.about .right-section hr{
+    width: 40%;
+    height: 2px;
+    box-shadow: 0px 3px 4px rgb(255, 127, 80);
+    border: none;
+    background: none;
+    margin-bottom: 25px;
+}
+.about .right-section p{
+    font-family: 'Uchen', serif;
+    text-align: justify;
+}
+.about .right-section .social-media > *{
+    cursor: pointer;
+}
+/* about css end ************************************  */
