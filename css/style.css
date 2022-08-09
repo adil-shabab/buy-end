@@ -1,0 +1,26 @@
+/* global css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a, a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.d-flex-full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* navbar css start ---------------------------------------- */
+
+/* navbar css end ------------------------------------------ */
