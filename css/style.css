@@ -364,7 +364,7 @@ font-family: 'Uchen', serif; */
     justify-content: center;
     align-items: flex-start;
 }
-.footer .contact-us h3{
+.footer h3{
     color: #00aaae;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
@@ -392,5 +392,18 @@ font-family: 'Uchen', serif; */
     background: #00aaae;
     padding: 1px;
     margin-left: 3px;
+}
+.footer .guide{
+    padding-left: 80px !important;
+}
+.footer .guide ul li a{
+    margin-left: 15px;
+    transition: 0.5s;
+    color: black;
+}
+.footer .guide ul li i{
+    color: #00aaae;
+    cursor: pointer;
+    transition: 0.5s;
 }
 /* foooter section end  */
