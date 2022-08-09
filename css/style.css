@@ -321,7 +321,7 @@ font-family: 'Uchen', serif; */
 /* foooter section start  */
 .footer{
     margin-top: 120px !important;
-    padding: 35px 100px !important;
+    padding: 35px 100px 0px 100px !important;
 }
 .footer .logo,
 .footer .contact-us{
@@ -439,5 +439,19 @@ font-family: 'Uchen', serif; */
     margin-top: 25px;
     margin-right: 8px;
     border-radius: 8px;
+}
+.main-hr{
+    width: 80%;
+    background: #00aaae;
+    margin: auto;
+}
+.main-hr-2{
+    width: 100%;
+    margin-bottom: 20px !important;
+    margin-top: 50px !important;
+}
+.footer .copy-right{
+    font-weight: 600;
+    font-family: 'Poppins';
 }
 /* foooter section end  */
