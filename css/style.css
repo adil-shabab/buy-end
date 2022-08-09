@@ -21,6 +21,17 @@ li{
 }
 body{
     position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+hr{
+    width: 40%;
+    height: 2px;
+    box-shadow: 0px 3px 4px rgb(255, 127, 80);
+    border: none;
+    background: none;
+    margin-bottom: 25px;
 }
 
 
@@ -161,7 +172,12 @@ font-family: 'Uchen', serif; */
 .about{
     width: 100%;
     /* height: 100vh !important; */
-    padding: 40px 10px 10px 10px !important;
+    padding: 40px 20px 20px 20px !important;
+}
+.about .left-section,
+.about .right-section{
+    width: 100% !important;
+    height: 100% !important;
 }
 .about .left-section img{
     width: 100%;
@@ -173,21 +189,15 @@ font-family: 'Uchen', serif; */
     padding: 25px 20px;
     justify-content: center;
 }
-.about .right-section h4{
+.about .right-section h4,
+.heading{
     font-size: 25px;
     font-weight: bold;
     font-family: 'Tiro Gurmukhi', serif;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: #00aaae;
 }
-.about .right-section hr{
-    width: 40%;
-    height: 2px;
-    box-shadow: 0px 3px 4px rgb(255, 127, 80);
-    border: none;
-    background: none;
-    margin-bottom: 25px;
-}
+
 .about .right-section p{
     font-family: 'Uchen', serif;
     text-align: justify;
@@ -196,3 +206,86 @@ font-family: 'Uchen', serif; */
     cursor: pointer;
 }
 /* about css end ************************************  */
+
+
+
+
+
+
+
+
+
+
+/* product css start **************************************** */
+.gallery{
+    margin-top: 140px !important;
+    padding-top: 55px;   
+    margin: 0px !important;
+}
+.gallery .product img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s ease;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.gallery .product{
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.gallery .product img:hover{
+    transform: scale(1.2);
+}
+/* product css end   **************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact css start **************************************** */
+.contact{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .left-section,
+.contact .right-section{
+    width: 100%;
+    height: 100%;
+}
+.contact .left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .left-section img{
+    width: 50%;
+}
+.contact .right-section{
+    padding: 10px 100px;
+}
+.contact .right-section input{
+    margin-bottom: 18px;
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #00aaae;
+    width: 100% !important;
+}
+.contact 
+/* contact css end **************************************** */
