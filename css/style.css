@@ -406,4 +406,38 @@ font-family: 'Uchen', serif; */
     cursor: pointer;
     transition: 0.5s;
 }
+.footer .join img{
+    width: 40%;
+}
+.footer .join input{
+    width: 70%;
+    height: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+    border: 1px solid #00aaae;
+}
+.footer .join button{
+    border: none;
+    background: #00aaae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00aaae;
+    transition: 0.5s;
+    padding: 10px;
+    max-height: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+}
+.footer .join button:hover{
+    color: #00aaae;
+    background: white;
+}
+.footer .join img{
+    margin-top: 25px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
 /* foooter section end  */
