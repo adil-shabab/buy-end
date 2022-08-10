@@ -1,5 +1,5 @@
 /* global css  */
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins&family=Roboto:wght@100;400&family=Tiro+Gurmukhi&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oleo+Script+Swash+Caps&family=Poppins&family=Roboto:wght@100;400&family=Tiro+Gurmukhi&family=Uchen&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@ font-family: 'Uchen', serif; */
 /* navbar css start ---------------------------------------- */
 .navbar{
     width: 100%;
-    background: white;
+    background: #EBEEFD;
     height: 15vh;
     padding: 0px 100px !important;
 }
@@ -59,7 +59,7 @@ font-family: 'Uchen', serif; */
 }
 .navbar ul li a{
     color: rgb(4, 4, 4);
-    font-size: 16px;
+    font-size: 18px;
     transition: 0.6s;
     font-weight: 400;
 }
@@ -75,19 +75,58 @@ font-family: 'Uchen', serif; */
 
 
 
-
-
-
+.hero{
+    width: 100%;
+    height: 85vh;
+    margin: auto !important;
+    position: relative;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.hero h1,
+.hero button{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    /* font-family: 'Uchen', serif; */
+    font-family: 'Acme', sans-serif;
+    font-size: 4rem;
+    color: #00aaae;
+}
+.hero .h1-2{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Oleo Script Swash Caps', cursive;
+    top: 280px;
+    font-size: 3rem;
+}
+.hero .button{
+    top: 380px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    border: none;
+    background: white;
+    border: 1px solid #00aaae;
+    padding: 7px 25px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: #00aaae;
+}
+.hero .button:hover{
+    color: white;
+    background: #00aaae;
+}
 
 
 
 /* home css start -----------------------------------------------------  */
 .home{
     width: 100%;
+    margin:auto !important;
     height: 85vh;
-    margin: auto !important;
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 41%, rgba(228,228,228,1) 70%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
 }
 .home .left-section,
 .home .right-section{
@@ -219,9 +258,14 @@ font-family: 'Uchen', serif; */
 
 /* product css start **************************************** */
 .gallery{
-    margin-top: 140px !important;
-    padding-top: 55px;   
-    margin: 0px !important;
+    padding-top: 55px 30px 0px 30px; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto 0px !important;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
 }
 .gallery .product img{
     width: 100%;
@@ -320,8 +364,9 @@ font-family: 'Uchen', serif; */
 
 /* foooter section start  */
 .footer{
-    margin-top: 120px !important;
-    padding: 35px 100px 0px 100px !important;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+    padding: 150px 100px 20px 100px !important;
 }
 .footer .logo,
 .footer .contact-us{
