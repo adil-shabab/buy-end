@@ -21,23 +21,47 @@ li{
 }
 body{
     position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .hr{
     width: 40%;
     height: 2px;
-    box-shadow: 0px 3px 4px rgb(255, 127, 80);
+    box-shadow: 0px 3px 4px rgb(4, 129, 164);
     border: none;
     background: none;
     margin-bottom: 25px;
 }
 
-
 /* font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Uchen', serif; */
+
+
+
+
+
+
+/* scroll bar css  */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgb(197, 197, 197); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00aaae; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #018789; 
+  }
+
 
 
 
@@ -75,6 +99,12 @@ font-family: 'Uchen', serif; */
 
 
 
+
+
+
+
+
+/* hero section css starts ////////////////////////////////////////////  */
 .hero{
     width: 100%;
     height: 85vh;
@@ -117,6 +147,13 @@ font-family: 'Uchen', serif; */
     color: white;
     background: #00aaae;
 }
+/* hero section  end ******************************************  */
+
+
+
+
+
+
 
 
 
