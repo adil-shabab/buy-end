@@ -71,7 +71,7 @@ font-family: 'Uchen', serif; */
     height: 15vh;
     padding: 0px 100px !important;
 }
-.home-navbar{
+.navbar.active{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
 }
@@ -378,7 +378,27 @@ font-family: 'Uchen', serif; */
 
 
 
-
+/* banner section css start  */
+.banner{
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+    margin: auto !important;
+    padding: 70px 50px 0px 50px;
+}
+.banner .banner-img{
+    border-radius: 15px;
+}
+.banner img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 15px;
+}
+.banner img:hover{
+    transform: scale(1.3) rotate(-10deg);
+}
+/* banner section css end  */
 
 
 
@@ -450,9 +470,11 @@ font-family: 'Uchen', serif; */
 
 
 /* foooter section start  */
-.footer{
+.footer.active{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+}
+.footer{
     padding: 150px 100px 20px 100px !important;
 }
 .footer .logo,
