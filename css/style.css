@@ -333,15 +333,44 @@ font-family: 'Uchen', serif; */
 
 /* why us section css start  */
 .why-us{
-    padding: 25px 60px;
+    padding: 125px 60px 0px 60px;
     margin: auto !important;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
 }
+.why-us h1{
+    color: #00aaae;
+}
+.why-us hr{
+    margin-bottom: 30px !important;
+}
 .why-us .icon{
+    padding: 15px 25px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    flex-direction: column;
+}
+
+.why-us .icon i{
+    padding: 25px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    font-size: 2rem;
+    background: #00aaae;
+    color: white;
+}
+.why-us .icon h4{
+    font-size: 22px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(22, 55, 98);
+    font-family: 'Roboto', sans-serif;
+}
+.why-us .icon p{
+    text-align: justify;
+    margin-top: 10px;
+    font-family: 'Uchen', serif;
 }
 /* why us section css end  */
 
