@@ -68,9 +68,12 @@ font-family: 'Uchen', serif; */
 /* navbar css start ---------------------------------------- */
 .navbar{
     width: 100%;
-    background: #EBEEFD;
     height: 15vh;
     padding: 0px 100px !important;
+}
+.home-navbar{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
 }
 .navbar .logo{
     width: 60px;
@@ -323,6 +326,24 @@ font-family: 'Uchen', serif; */
 
 
 
+
+
+
+
+
+/* why us section css start  */
+.why-us{
+    padding: 25px 60px;
+    margin: auto !important;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+}
+.why-us .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* why us section css end  */
 
 
 
