@@ -304,8 +304,8 @@ font-family: 'Uchen', serif; */
     align-items: center;
     flex-direction: column;
     margin: 0px auto 0px !important;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+    /* background: rgb(255,255,255); */
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%); */
 }
 .gallery .product img{
     width: 100%;
@@ -403,64 +403,6 @@ font-family: 'Uchen', serif; */
 
 
 
-
-
-
-/* contact css start **************************************** */
-.contact{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contact .left-section,
-.contact .right-section{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.contact .left-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.contact .left-section img{
-    width: 50%;
-}
-.contact .right-section{
-    padding: 10px 100px;
-}
-.contact .right-section input{
-    margin-bottom: 18px;
-    padding: 0px 10px;
-    transition: 0.8s;
-    border-radius: 5px;
-    border: none;
-    border-bottom: 1px solid #00aaae;
-    width: 100% !important;
-    height: 25px;
-}
-.contact .right-section input:focus{
-    height: 40px;
-    border: none;
-}
-.contact .right-section button{
-    padding: 8px 30px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    transition: 0.8s;
-    background: #00aaae;
-    border: none;
-    border: 1px solid #00aaae;
-    margin-top: 40px;
-    border-radius: 5px;
-}
-.contact .right-section button:hover{
-    color: #00aaae;
-    background: white;
-}
-/* contact css end **************************************** */
 
 
 
@@ -609,3 +551,88 @@ font-family: 'Uchen', serif; */
     font-family: 'Poppins';
 }
 /* foooter section end  */
+
+
+
+
+
+
+
+
+
+
+/* contact css start **************************************** */
+.contact{
+    margin-top: 100px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact .left-section,
+.contact .right-section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.contact .left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .left-section img{
+    width: 65%;
+}
+.contact .right-section{
+    padding: 10px 100px;
+}
+.contact .right-section input{
+    margin-bottom: 18px;
+    padding: 0px 10px;
+    transition: 0.8s;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #00aaae;
+    width: 100% !important;
+    height: 25px;
+}
+.contact .right-section input:focus{
+    height: 40px;
+    border: none;
+}
+.contact .right-section button{
+    padding: 8px 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.8s;
+    background: #00aaae;
+    border: none;
+    border: 1px solid #00aaae;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.contact .right-section button:hover{
+    color: #00aaae;
+    background: white;
+}
+/* .contact iframe{
+    width: 100%;
+    margin-top: 60px;
+    border-radius: 15px;
+} */
+.contact .banner-contact{
+    margin-top: 50px;
+}
+.contact .banner-contact .left-section,
+.contact .banner-contact .right-section{
+    width: 100% !important;
+    padding: 20px;
+}
+.contact .banner-contact .left-section img,
+.contact .banner-contact .right-section img{
+    width: 100%;
+    border-radius: 15px;
+}
+/* contact css end **************************************** */
