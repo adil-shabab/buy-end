@@ -330,6 +330,32 @@ font-family: 'Uchen', serif; */
     justify-content: center;
     align-items: flex-start;
 }
+.gallery .attached-banner-2{
+    background: url('/img/product\ 5.jpg') no-repeat;
+    background-size: cover;
+    background-position: top 70px center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.product-section .attached-banner-2{
+    background: url('/img/image\ 13.jpg') no-repeat;
+    background-size: cover;
+    background-position: top 70px center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 55vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 .gallery .product img{
     width: 100%;
     cursor: pointer;
@@ -349,6 +375,7 @@ font-family: 'Uchen', serif; */
     display: none;
 }
 /* product css end   **************************************** */
+
 
 
 
@@ -380,6 +407,7 @@ font-family: 'Uchen', serif; */
     align-items: center;
     flex-direction: column;
 }
+
 
 .why-us .icon i{
     padding: 25px;
@@ -681,17 +709,79 @@ font-family: 'Uchen', serif; */
     margin-top: 60px;
     border-radius: 15px;
 } */
-.contact .banner-contact{
+.banner-contact{
     margin-top: 50px;
+    margin: 50px auto 0px !important;
+    padding: 10px 50px;
 }
-.contact .banner-contact .left-section,
-.contact .banner-contact .right-section{
+.banner-contact .left-section,
+.banner-contact .right-section{
     width: 100% !important;
     padding: 20px;
 }
-.contact .banner-contact .left-section img,
-.contact .banner-contact .right-section img{
+.banner-contact .left-section img,
+.banner-contact .right-section img{
     width: 100%;
     border-radius: 15px;
 }
 /* contact css end **************************************** */
+
+
+
+
+
+
+
+/* product css start ************************ */
+.product-section{
+    width: 100%;
+    margin:auto !important;
+    /* height: 85vh; */
+    padding: 10px 50px;
+    position: relative;
+}
+.product-section img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-section .product-content{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 15px !important;
+    border-bottom: 1px solid #00aaae;
+    border-left: 1px solid #00aaae;
+    margin-top: 20px;
+}
+.product-section .product-content .text-content{
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.product-section .product-content .text-content h3{
+    font-size: 21px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+.product-section .product-content .text-content p{
+    text-align: justify;
+    margin-top: 15px;
+    font-family: 'Uchen', serif;
+}
+.product-section .product-content .text-content .span-text{
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    background: #00aaae;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.product-section .product-content .text-content .d-flex i{
+    color: #00aaae;
+    font-size: 18px;
+    margin-right: 5px;
+}
+/* product css end ************************ */
+
