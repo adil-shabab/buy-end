@@ -74,15 +74,14 @@ font-family: 'Uchen', serif; */
 /* navbar css start ---------------------------------------- */
 .navbar{
     width: 100%;
-    height: 15vh;
-    padding: 0px 100px !important;
+    padding: 5px 100px !important;
 }
-.navbar.active{
+.index-navbar{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
 }
 .navbar .logo{
-    width: 60px;
+    width: 80px;
 }
 .navbar ul li{
     margin-right: 30px;
@@ -134,16 +133,16 @@ font-family: 'Uchen', serif; */
     /* font-family: 'Poppins', serif; */
     /* font-family: 'Oleo Script Swash Caps', cursive; */
     /* font-family: 'Acme', sans-serif; */
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', serif;
     font-size: 3.5rem;
     font-weight: bold;
     color: rgb(12, 98, 113);
 }
 .hero .h1-2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     /* font-family: 'Oleo Script Swash Caps', cursive; */
     top: 270px;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 .hero .button-flex{
     position: absolute;
@@ -394,8 +393,48 @@ font-family: 'Uchen', serif; */
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
 }
-.why-us .row{
+/* .why-us .row{
     border-bottom: 1px solid #00aaae;
+} */
+.why-us .color{
+    display: flex;
+    background: #e0d7e9;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    min-height: 250px;
+    padding: 15px;
+    margin-top: 50px;
+}
+.why-us .color-2{
+    background: #e9f3cb;
+}
+.why-us .color-3{
+    background: #fbd0e2;
+}
+.why-us .color-4{
+    background: #fbd9db;
+}
+.why-us .color i{
+    font-size: 2.5rem;
+    padding: 20px;
+    border-radius: 50%;
+    background: white;
+    color: #00aaae;
+    margin-bottom: 20px;
+}
+.why-us .color h4{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.why-us .color p{
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
 }
 .why-us h1{
     color: #00aaae;
@@ -475,7 +514,12 @@ font-family: 'Uchen', serif; */
         padding: 10px 110px;
         background: rgb(255,255,255);
         background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
-
+}
+.product-slider h3{
+    font-family: 'Poppins';
+    margin-top: -65px;
+    font-size: 20px;
+    font-weight: bold;
 }
 /* product section css end -----------------------  */
 
@@ -566,7 +610,7 @@ font-family: 'Uchen', serif; */
     margin-left: 3px;
 }
 .footer .guide{
-    padding-left: 80px !important;
+    padding-left: 100px !important;
 }
 .footer .guide ul li a{
     margin-left: 15px;
@@ -581,15 +625,15 @@ font-family: 'Uchen', serif; */
 .footer .join img{
     width: 40%;
 }
-.footer .join input{
-    width: 70%;
+.footer .contact-us input{
+    width: 100%;
     height: 40px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-right: none;
     border: 1px solid #00aaae;
 }
-.footer .join button{
+.footer .contact-us button{
     border: none;
     background: #00aaae;
     display: flex;
@@ -603,7 +647,7 @@ font-family: 'Uchen', serif; */
     border-bottom-right-radius: 8px;
     color: white;
 }
-.footer .join button:hover{
+.footer .contact-us button:hover{
     color: #00aaae;
     background: white;
 }
@@ -761,10 +805,12 @@ font-family: 'Uchen', serif; */
     padding-bottom: 15px;
 }
 .product-section .product-content .text-content h3{
-    font-size: 21px;
-    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
     color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    /* font-family: 'Uchen', serif; */
+    font-family: 'Poppins', sans-serif;
 }
 .product-section .product-content .text-content p{
     text-align: justify;
