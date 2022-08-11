@@ -1,5 +1,5 @@
 /* global css  */
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oleo+Script+Swash+Caps&family=Poppins&family=Roboto:wght@100;400&family=Tiro+Gurmukhi&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merriweather&family=Oleo+Script+Swash+Caps&family=Poppins&family=Roboto:wght@100;400&family=Tiro+Gurmukhi&family=Uchen&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -30,6 +30,12 @@ body{
     background: none;
     margin-bottom: 25px;
 }
+.stroke{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00aaae;
+    color: transparent;
+    font-family: 'Finlandica', sans-serif;
+  }
 
 /* font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Roboto', sans-serif;
@@ -118,37 +124,28 @@ font-family: 'Uchen', serif; */
     width: 100%;
     height: 100%;
 }
-.hero h1,
-.hero button{
+.hero h1{
     position: absolute;
     left: 100px;
     top: 200px;
-    /* font-family: 'Uchen', serif; */
-    font-family: 'Acme', sans-serif;
-    font-size: 4rem;
-    color: #00aaae;
+    /* font-family: 'Poppins', serif; */
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Merriweather', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(12, 98, 113);
 }
 .hero .h1-2{
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Oleo Script Swash Caps', cursive;
-    top: 280px;
-    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
+    top: 270px;
+    font-size: 2.5rem;
 }
-.hero .button{
+.hero .button-flex{
+    position: absolute;
     top: 380px;
-    font-size: 20px;
-    font-family: 'Poppins';
-    border: none;
-    background: white;
-    border: 1px solid #00aaae;
-    padding: 7px 25px;
-    border-radius: 8px;
-    transition: 0.5s;
-    color: #00aaae;
-}
-.hero .button:hover{
-    color: white;
-    background: #00aaae;
+    left: 100px;
 }
 /* hero section  end ******************************************  */
 
