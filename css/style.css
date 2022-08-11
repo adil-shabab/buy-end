@@ -96,6 +96,9 @@ font-family: 'Uchen', serif; */
     transition: 0.6s;
     font-weight: 400;
 }
+.navbar ul li a.active{
+    color: #00aaae;
+}
 .navbar ul li a:hover{
     color: #00aaae;
 }
