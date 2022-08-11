@@ -317,6 +317,19 @@ font-family: 'Uchen', serif; */
     /* background: rgb(255,255,255); */
     /* background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%); */
 }
+.gallery .attached-banner{
+    background: url('/img/banner\ 2.jpg') no-repeat;
+    background-size: cover;
+    background-position: top 70px center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 .gallery .product img{
     width: 100%;
     cursor: pointer;
@@ -332,6 +345,9 @@ font-family: 'Uchen', serif; */
 .gallery .product img:hover{
     transform: scale(1.2);
 }
+.gallery .second-row.not-active{
+    display: none;
+}
 /* product css end   **************************************** */
 
 
@@ -343,10 +359,13 @@ font-family: 'Uchen', serif; */
 
 /* why us section css start  */
 .why-us{
-    padding: 125px 60px 0px 60px;
+    padding: 125px 100px 0px 100px;
     margin: auto !important;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+}
+.why-us .row{
+    border-bottom: 1px solid #00aaae;
 }
 .why-us h1{
     color: #00aaae;
