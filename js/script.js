@@ -33,3 +33,16 @@ var swiper = new Swiper(".mySwiper", {
     },
     // loop: true
   });
+
+
+
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+       $('.navbar').addClass('small-box-shadow');
+       $('.logo').css("width", "75px")
+    } else {
+       $('.navbar').removeClass('small-box-shadow');
+       $('.logo').css("width", "80px")
+
+    }
+});

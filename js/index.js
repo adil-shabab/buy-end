@@ -8,7 +8,13 @@ button.addEventListener('click', function(){
     row.classList.remove('not-active')
     showGalleryButton.classList.remove('d-flex-full')
     showGalleryButton.classList.add('d-none')
-
-    
 })
 
+
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 50) {
+       $('.navbar').addClass('shadow');
+    } else {
+       $('.navbar').removeClass('shadow');
+    }
+});
