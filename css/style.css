@@ -454,7 +454,7 @@ font-family: 'Uchen', serif; */
     
 }
 .why-us.about{
-    padding: 25px 100px 0px 100px;
+    padding: 25px 100px 0px 0px;
     margin: auto !important;
     background: white;
 }
@@ -594,9 +594,7 @@ font-family: 'Uchen', serif; */
 
 
 /* foooter section start  */
-.footer.active{
-    
-}
+
 .footer{
     padding: 150px 100px 20px 100px !important;
 }
@@ -677,6 +675,7 @@ font-family: 'Uchen', serif; */
     margin-left: 15px;
     transition: 0.5s;
     color: black;
+    font-size: 16px;
 }
 .footer .guide ul li i{
     color: #00aaae;
@@ -898,4 +897,25 @@ font-family: 'Uchen', serif; */
     margin-right: 5px;
 }
 /* product css end ************************ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
