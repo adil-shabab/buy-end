@@ -197,9 +197,9 @@ font-family: 'Uchen', serif; */
     color: #00aaae;
 }
 .home .right-section p{
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify;
-    font-family: 'Uchen', serif;
+    font-family: 'Poppins', serif;
 }
 .home .right-section span{
     color: coral;
@@ -483,7 +483,7 @@ font-family: 'Uchen', serif; */
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
     margin: auto !important;
-    padding: 70px 50px 0px 50px;
+    padding: 60px 100px 0px 100px;
 }
 .banner .banner-img{
     border-radius: 15px;
