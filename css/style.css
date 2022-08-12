@@ -271,7 +271,8 @@ font-family: 'Uchen', serif; */
     flex-direction: column;
 }
 .about .left-section img{
-    width: 85%;
+    width: 90%;
+    border-radius: 15px;
     /* height: 100%; */
 }
 .about .right-section{
@@ -499,7 +500,7 @@ font-family: 'Uchen', serif; */
     font-family: 'Poppins';
     font-size: 15px;
     margin-top: 10px;
-    text-align: justify;
+    text-align: center;
 }
 .why-us h1{
     color: #00aaae;
