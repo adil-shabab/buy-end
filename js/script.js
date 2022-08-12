@@ -39,7 +39,7 @@ var swiper = new Swiper(".mySwiper", {
   $(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
        $('.navbar').addClass('small-box-shadow');
-       $('.logo').css("width", "75px")
+       $('.logo').css("width", "55px")
     } else {
        $('.navbar').removeClass('small-box-shadow');
        $('.logo').css("width", "80px")

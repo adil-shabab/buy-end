@@ -74,11 +74,8 @@ font-family: 'Uchen', serif; */
 /* navbar css start ---------------------------------------- */
 .navbar{
     width: 100%;
-    padding: 5px 100px !important;
-}
-.index-navbar{
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+    background: white;
+    padding: 15px 100px !important;
 }
 .navbar .logo{
     width: 80px;
@@ -165,8 +162,7 @@ font-family: 'Uchen', serif; */
     margin:auto !important;
     /* height: 85vh; */
     padding: 10px 110px;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+    
 }
 .home .left-section,
 .home .right-section{
@@ -190,10 +186,10 @@ font-family: 'Uchen', serif; */
     padding: 5px 40px !important;
 }
 .home .right-section h3{
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
-    font-family: 'Tiro Gurmukhi', serif;
+    font-family: 'Poppins', serif;
     color: #00aaae;
 }
 .home .right-section p{
@@ -203,7 +199,7 @@ font-family: 'Uchen', serif; */
 }
 .home .right-section span{
     color: coral;
-    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Poppins', cursive;
     font-size: 20px;
 }
 .watsapp{
@@ -255,47 +251,111 @@ font-family: 'Uchen', serif; */
 
 
 /* about css start ************************************  */
+
 .about{
     width: 100%;
     /* height: 100vh !important; */
-    padding: 40px 180px 20px 180px !important;
+    min-height: 85vh;
+    padding: 40px 100px 80px 100px !important;
+    position: relative;
 }
+
 .about .left-section,
 .about .right-section{
     width: 100% !important;
     height: 100% !important;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .about .left-section img{
-    width: 100%;
+    width: 85%;
     /* height: 100%; */
 }
 .about .right-section{
-    display: flex;
-    flex-direction: column;
     padding: 25px 20px;
-    justify-content: center;
 }
 .about .right-section h4,
 .heading{
     font-size: 25px;
     font-weight: bold;
-    font-family: 'Tiro Gurmukhi', serif;
+    font-family: 'Poppins', serif;
     margin-bottom: 10px;
     color: #00aaae;
 }
 .heading-2{
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Tiro Gurmukhi', serif;
+    font-family: 'Poppins', serif;
     color: #00aaae;
 }
 
 .about .right-section p{
-    font-family: 'Uchen', serif;
+    font-family: 'Poppins', serif;
+    font-size: 15px;
     text-align: justify;
 }
-.about .right-section .social-media > *{
+.about .right-section .social-medias{
+    margin-top: 15px;
+}
+.about .right-section .social-medias > *{
     cursor: pointer;
+    padding: 10px;
+    background: #00aaae;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.task{
+    padding: 10px 100px;
+    margin: 0px !important;
+}
+.task > *{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    border-bottom: 1px solid #00aaae;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px !important;
+}
+.task img{
+    width: 40%;
+    border-radius: 50%;
+}
+.task h3{
+    color: #00aaae;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-bottom: 15px;
+}
+.task p{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.mission-head{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #00aaae;
+    font-family: 'Poppins';
+}
+.about-testimonial .swiper-slide{
+    background: #dbfeff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 80px;
+    border-radius: 15px;
+}
+.about-testimonial .swiper-slide img{
+    width: 300px;
+    border-radius: 25px;
 }
 /* about css end ************************************  */
 
@@ -388,10 +448,15 @@ font-family: 'Uchen', serif; */
 
 /* why us section css start  */
 .why-us{
-    padding: 125px 100px 0px 100px;
+    height: auto;
+    padding: 25px 100px 0px 100px;
     margin: auto !important;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+    
+}
+.why-us.about{
+    padding: 25px 100px 0px 100px;
+    margin: auto !important;
+    background: white;
 }
 /* .why-us .row{
     border-bottom: 1px solid #00aaae;
@@ -480,8 +545,7 @@ font-family: 'Uchen', serif; */
 /* banner section css start  */
 .banner{
     width: 100%;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+    
     margin: auto !important;
     padding: 60px 100px 0px 100px;
 }
@@ -512,8 +576,6 @@ font-family: 'Uchen', serif; */
         margin:auto !important;
         /* height: 85vh; */
         padding: 10px 110px;
-        background: rgb(255,255,255);
-        background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
 }
 .product-slider h3{
     font-family: 'Poppins';
@@ -533,8 +595,7 @@ font-family: 'Uchen', serif; */
 
 /* foooter section start  */
 .footer.active{
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%);
+    
 }
 .footer{
     padding: 150px 100px 20px 100px !important;
@@ -633,6 +694,9 @@ font-family: 'Uchen', serif; */
     border-right: none;
     border: 1px solid #00aaae;
 }
+.footer .contact-us i{
+    color: #00aaae;
+}
 .footer .contact-us button{
     border: none;
     background: #00aaae;
@@ -645,11 +709,10 @@ font-family: 'Uchen', serif; */
     max-height: 40px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    color: white;
+    color: white !important;
 }
-.footer .contact-us button:hover{
-    color: #00aaae;
-    background: white;
+.footer .contact-us button i{
+    color: white;
 }
 .footer .join img{
     margin-top: 25px;
@@ -805,8 +868,9 @@ font-family: 'Uchen', serif; */
     padding-bottom: 15px;
 }
 .product-section .product-content .text-content h3{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     /* font-family: 'Uchen', serif; */
@@ -815,7 +879,8 @@ font-family: 'Uchen', serif; */
 .product-section .product-content .text-content p{
     text-align: justify;
     margin-top: 15px;
-    font-family: 'Uchen', serif;
+    font-family: 'Poppins', serif;
+    font-size: 14px;
 }
 .product-section .product-content .text-content .span-text{
     position: absolute;
