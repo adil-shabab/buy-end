@@ -42,7 +42,7 @@ var swiper = new Swiper(".mySwiper", {
        $('.logo').css("width", "55px")
     } else {
        $('.navbar').removeClass('small-box-shadow');
-       $('.logo').css("width", "80px")
+       $('.logo').css("width", "100px")
 
     }
 });

@@ -78,7 +78,7 @@ font-family: 'Uchen', serif; */
     padding: 15px 100px !important;
 }
 .navbar .logo{
-    width: 80px;
+    width: 100px;
 }
 .navbar ul li{
     margin-right: 30px;
@@ -617,7 +617,7 @@ font-family: 'Uchen', serif; */
     flex-direction: column;
 }
 .footer .logo img{
-    width: 80px;
+    width: 100px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
