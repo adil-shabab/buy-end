@@ -1,8 +1,12 @@
+@media screen and (max-width: 992px) {
+    .wrapper-for-arrows{
+		width: 90% !important;
+	}
+  }
 .content-wrapper {
     margin: auto;
 	height: 100%;
 	width: 80%;
-	max-width: 100rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -98,6 +102,7 @@
 	text-align: center;
 	transition: background-color 0.3s, transform 0.3s;
 	cursor: pointer;
+	margin-top: 15px;
 	margin-bottom: calc(1.4rem + 1vmin);
 }
 .surprise-me-btn:hover {

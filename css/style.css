@@ -100,13 +100,35 @@ font-family: 'Uchen', serif; */
 .navbar ul li a:hover{
     color: #00aaae;
 }
-.menu-icon{
+.menu-icon,
+.close-icon{
     cursor: pointer;
     color: #00aaae;
-    font-size: 22px;
+    width: 25px;
     margin-left: 20px;
     display: none;
 }
+.navbar ul.active{
+    position: absolute;
+    margin:10vh auto 0;
+    align-items: center;
+    right: 10px;
+    z-index: 11;
+    width: 40%;
+    top: 80px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+    transform: translateY(0);
+    background-color: white;
+    padding: 10px;
+}
+.navbar ul.active li{
+    margin-bottom: 10px;
+}
+
+
 @media screen and (max-width: 992px) {
     .menu-icon{
         display: block;
@@ -167,8 +189,18 @@ font-family: 'Uchen', serif; */
         background: url(../img/product\ 9.jpg) no-repeat;
         background-size: cover;
         background-position: top center;
-        /* width: 100%; */
-        /* height: 100vh; */
+    }
+    .hero h1{
+        display: none;
+    }
+    .hero .h1-2{
+        display: none;
+    }
+    .hero button{
+        display: none;
+    }
+    .hero lottie-player{
+        display: none;
     }
   }
 /* hero section  end ******************************************  */
@@ -259,7 +291,11 @@ font-family: 'Uchen', serif; */
 /* font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Uchen', serif; */
-
+@media screen and (max-width: 992px) {
+    .home{
+        padding: 15px;
+    }
+  }
 
 
 /* home css end -----------------------------------------------------  */
@@ -348,7 +384,7 @@ font-family: 'Uchen', serif; */
     /* justify-content: center; */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, .4);
     border-radius: 15px;
-    margin-top: 10px;
+    margin-top: 15px;
     align-items: center;
     flex-direction: column;
     padding: 15px 15px !important;
@@ -388,6 +424,18 @@ font-family: 'Uchen', serif; */
     width: 300px;
     border-radius: 25px;
 }
+@media screen and (max-width: 992px) {
+    .about{
+        padding: 15px !important;
+        margin: 0px !important;
+    }
+    .task{
+        padding: 15px !important;
+    }
+    .about .left-section img{
+        width: 100%;
+    }
+  }
 /* about css end ************************************  */
 
 
@@ -481,8 +529,7 @@ font-family: 'Uchen', serif; */
 .why-us{
     height: auto;
     padding: 25px 100px 0px 100px;
-    margin: auto !important;
-    
+    margin: auto !important; 
 }
 .why-us.about{
     padding: 25px 100px 0px 0px;
@@ -567,6 +614,11 @@ font-family: 'Uchen', serif; */
     margin-top: 10px;
     font-family: 'Uchen', serif;
 }
+@media screen and (max-width: 992px) {
+    .why-us{
+        padding: 15px;
+    }
+  }
 /* why us section css end  */
 
 
@@ -634,6 +686,7 @@ font-family: 'Uchen', serif; */
     width: 100%;
     height: 100%;
 }
+
 .footer .logo{
     padding: 0px 60px;
     display: flex;
@@ -764,6 +817,23 @@ font-family: 'Uchen', serif; */
     font-weight: 600;
     font-family: 'Poppins';
 }
+@media screen and (max-width: 992px) {
+    .footer .logo{
+        padding: 0px;
+    }
+    .footer .guide{
+        padding-left: 0px !important;
+    }
+    .footer .contact-us{
+        padding: 0px;
+    }
+    .banner{
+        padding: 10px;
+    }
+    .footer{
+        padding: 15px;
+    }
+  }
 /* foooter section end  */
 
 
@@ -784,6 +854,7 @@ font-family: 'Uchen', serif; */
     justify-content: center;
     align-items: center;
 }
+
 .contact .left-section,
 .contact .right-section{
     width: 100%;
@@ -862,9 +933,24 @@ font-family: 'Uchen', serif; */
 }
 .banner-contact .left-section img,
 .banner-contact .right-section img{
-    width: 100%;
+    width: 100% !important;
     border-radius: 15px;
 }
+@media screen and (max-width: 992px) {
+    .contact{
+        padding: 15px !important;
+        margin-top: 10px !important;
+    }
+    .contact .right-section{
+        padding: 30px !important;
+    }
+    .contact .left-section img{
+        width: 90% !important;
+    }
+    .banner-contact{
+        padding: 0px;
+    }
+  }
 /* contact css end **************************************** */
 
 

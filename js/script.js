@@ -19,11 +19,11 @@ var swiper = new Swiper(".mySwiper", {
     },
     breakpoints: {
       640: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 40,
       },
       1024: {
@@ -40,6 +40,7 @@ var swiper = new Swiper(".mySwiper", {
     if ($(this).scrollTop() > 100) {
        $('.navbar').addClass('small-box-shadow');
        $('.logo').css("width", "55px")
+       $('.menu-icon').css("font-size","28px")
     } else {
        $('.navbar').removeClass('small-box-shadow');
        $('.logo').css("width", "100px")
@@ -48,3 +49,24 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
+
+
+menubar = document.querySelector('.menu-icon')
+closebar = document.querySelector('.close-icon')
+ul = document.querySelector('.nav-ul')
+menubar.addEventListener('click', function(){
+  // alert('hai')
+  menubar.style.display = "none"
+  closebar.style.display = "block"
+  ul.classList.add('active')
+
+  console.log('hello')
+})
+closebar.addEventListener('click', function(){
+  // alert('hai')
+  closebar.style.display = "none"
+  menubar.style.display = "block"
+  console.log('hello')
+  ul.classList.remove('active')
+
+})
