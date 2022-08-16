@@ -21,6 +21,8 @@ li{
 }
 body{
     position: relative;
+    width: 100%;
+    overflow-x: hidden;
 }
 .hr{
     width: 40%;
@@ -98,11 +100,21 @@ font-family: 'Uchen', serif; */
 .navbar ul li a:hover{
     color: #00aaae;
 }
-.navbar ul li a i{
+.menu-icon{
+    cursor: pointer;
     color: #00aaae;
     font-size: 22px;
     margin-left: 20px;
+    display: none;
 }
+@media screen and (max-width: 992px) {
+    .menu-icon{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+  }
 /* navbar css end ------------------------------------------ */
 
 
@@ -123,6 +135,7 @@ font-family: 'Uchen', serif; */
     width: 100%;
     height: 100%;
 }
+
 .hero h1{
     position: absolute;
     left: 100px;
@@ -146,6 +159,18 @@ font-family: 'Uchen', serif; */
     top: 380px;
     left: 100px;
 }
+@media screen and (max-width: 1000px) {
+    .hero img{
+        display: none;
+    }
+    .hero {
+        background: url(../img/product\ 9.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+        /* width: 100%; */
+        /* height: 100vh; */
+    }
+  }
 /* hero section  end ******************************************  */
 
 

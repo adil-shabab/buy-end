@@ -43,6 +43,8 @@ var swiper = new Swiper(".mySwiper", {
     } else {
        $('.navbar').removeClass('small-box-shadow');
        $('.logo').css("width", "100px")
-
+       $('.menu-icon').css("font-size","38px")
     }
 });
+
+
