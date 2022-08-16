@@ -136,6 +136,13 @@ font-family: 'Uchen', serif; */
     .navbar ul{
         display: none;
     }
+    .navbar{
+        background: white;
+        padding: 10px 40px !important;
+    }
+    .navbar .logo{
+        width: 60px !important;
+    }
   }
 /* navbar css end ------------------------------------------ */
 
@@ -832,6 +839,7 @@ font-family: 'Uchen', serif; */
     }
     .footer{
         padding: 40px !important;
+        margin-top: 50px;
     }
   }
 /* foooter section end  */
@@ -1019,9 +1027,6 @@ font-family: 'Uchen', serif; */
     }
   }
 /* product css end ************************ */
-
-
-
 
 
 
