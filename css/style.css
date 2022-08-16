@@ -831,7 +831,7 @@ font-family: 'Uchen', serif; */
         padding: 10px;
     }
     .footer{
-        padding: 15px;
+        padding: 40px !important;
     }
   }
 /* foooter section end  */
@@ -931,7 +931,6 @@ font-family: 'Uchen', serif; */
     width: 100% !important;
     padding: 20px;
 }
-.banner-contact .left-section img,
 .banner-contact .right-section img{
     width: 100% !important;
     border-radius: 15px;
@@ -1014,6 +1013,11 @@ font-family: 'Uchen', serif; */
     font-size: 18px;
     margin-right: 5px;
 }
+@media screen and (max-width: 992px) {
+    .product-section{
+        padding: 10px 20px !important;
+    }
+  }
 /* product css end ************************ */
 
 
