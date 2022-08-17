@@ -1,25 +1,26 @@
 /* global css  */
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merriweather&family=Oleo+Script+Swash+Caps&family=Poppins&family=Roboto:wght@100;400&family=Tiro+Gurmukhi&family=Uchen&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Merriweather&family=Oleo+Script+Swash+Caps&family=Poppins&family=Roboto:wght@100;400&family=Tiro+Gurmukhi&family=Uchen&display=swap");
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a, a:hover{
+a,
+a:hover {
     text-decoration: none !important;
 }
-li{
+li {
     list-style: none;
 }
-.d-flex-full{
+.d-flex-full {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.small-box-shadow{
+.small-box-shadow {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
 }
-body{
+body {
     position: relative;
     max-width: 100%;
     overflow-x: hidden;
@@ -28,7 +29,7 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-.hr{
+.hr {
     width: 40%;
     height: 2px;
     box-shadow: 0px 3px 4px rgb(4, 129, 164);
@@ -36,86 +37,75 @@ body{
     background: none;
     margin-bottom: 25px;
 }
-.stroke{
+.stroke {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #00aaae;
     color: transparent;
-    font-family: 'Finlandica', sans-serif;
+    font-family: "Finlandica", sans-serif;
 }
 
-.body{
+.body {
     display: none;
 }
-/* font-family: 'Oleo Script Swash Caps', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Uchen', serif; */
-
-
-
-
-
 
 /* scroll bar css  */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 2px rgb(197, 197, 197); 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgb(197, 197, 197);
     border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #00aaae; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00aaae;
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #018789; 
-  }
+}
 
-
-
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #018789;
+}
 
 /* navbar css start ---------------------------------------- */
-.navbar{
+.navbar {
     width: 100%;
     background: white;
     padding: 15px 100px !important;
 }
-.navbar .logo{
+.navbar .logo {
     width: 60px;
 }
-.navbar ul li{
+.navbar ul li {
     margin-right: 30px;
 }
-.navbar ul{
+.navbar ul {
     margin-bottom: 0;
 }
-.navbar ul li a{
+.navbar ul li a {
     color: rgb(4, 4, 4);
     font-size: 18px;
     transition: 0.6s;
     font-weight: 400;
 }
-.navbar ul li a.active{
+.navbar ul li a.active {
     color: #00aaae;
 }
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     color: #00aaae;
 }
 .menu-icon,
-.close-icon{
+.close-icon {
     cursor: pointer;
     color: #00aaae;
     width: 25px;
     margin-left: 20px;
     display: none;
 }
-.navbar ul.active{
+.navbar ul.active {
     position: absolute;
     margin: 3vh auto 0;
     align-items: center;
@@ -131,152 +121,135 @@ font-family: 'Uchen', serif; */
     background-color: white;
     padding: 10px;
 }
-.navbar ul.active li{
+.navbar ul.active li {
     margin-bottom: 10px;
 }
-.navbar ul.active li a.active{
+.navbar ul.active li a.active {
     border-bottom: 1px solid #00aaae;
 }
 
-
 @media screen and (max-width: 992px) {
-    .menu-icon{
+    .menu-icon {
         display: block;
     }
-    .navbar ul{
+    .navbar ul {
         display: none;
     }
-    .navbar{
+    .navbar {
         background: white;
         padding: 10px 40px !important;
     }
-    .navbar .logo{
+    .navbar .logo {
         width: 60px !important;
     }
-  }
+}
 /* navbar css end ------------------------------------------ */
 
-
-
-
-
-
-
-
 /* hero section css starts ////////////////////////////////////////////  */
-.hero{
+.hero {
     width: 100%;
     height: 85vh;
     margin: auto !important;
     position: relative;
 }
-.hero img{
+.hero img {
     width: 100%;
     height: 100%;
 }
 
-.hero h1{
+.hero h1 {
     position: absolute;
     left: 100px;
     top: 200px;
     /* font-family: 'Poppins', serif; */
     /* font-family: 'Oleo Script Swash Caps', cursive; */
     /* font-family: 'Acme', sans-serif; */
-    font-family: 'Poppins', serif;
+    font-family: "Poppins", serif;
     font-size: 4.2rem;
     font-weight: bold;
     color: rgb(12, 98, 113);
 }
-.hero .h1-2{
-    font-family: 'Poppins', sans-serif;
+.hero .h1-2 {
+    font-family: "Poppins", sans-serif;
     /* font-family: 'Oleo Script Swash Caps', cursive; */
     top: 280px;
     font-size: 1.5rem;
 }
-.hero .button-flex{
+.hero .button-flex {
     position: absolute;
     top: 380px;
     left: 100px;
 }
 @media screen and (max-width: 1000px) {
-    .hero img{
+    .hero img {
         display: none;
     }
     .hero {
-        background: url(../img/product\ 9.jpg) no-repeat;
+        background: url(../img/product\9jpg) no-repeat;
         background-size: cover;
         background-position: top center;
     }
-    .hero h1{
+    .hero h1 {
         display: none;
     }
-    .hero .h1-2{
+    .hero .h1-2 {
         display: none;
     }
-    .hero button{
+    .hero button {
         display: none;
     }
-    .hero lottie-player{
+    .hero lottie-player {
         display: none;
     }
-  }
+}
 /* hero section  end ******************************************  */
 
-
-
-
-
-
-
-
-
 /* home css start -----------------------------------------------------  */
-.home{
+.home {
     width: 100%;
-    margin:auto !important;
+    margin: auto !important;
     /* height: 85vh; */
     padding: 10px 110px;
-    
 }
 .home .left-section,
-.home .right-section{
+.home .right-section {
     width: 100%;
     padding: 5px 25px;
     position: relative;
 }
-.home .left-section{
+.home .left-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.home .left-section .image{
+.home .left-section .image {
     width: 70%;
 }
-.home .right-section{
+.home .right-section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     padding: 5px 40px !important;
 }
-.home .right-section h3{
+.home .right-section h3 {
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
-    font-family: 'Poppins', serif;
+    font-family: "Poppins", serif;
     color: #00aaae;
 }
-.home .right-section p{
+.home .right-section p {
     font-size: 15px;
     text-align: justify;
-    font-family: 'Poppins', serif;
+    font-family: "Poppins", serif;
 }
-.home .right-section span{
+.home .right-section span {
     color: coral;
-    font-family: 'Poppins', cursive;
+    font-family: "Poppins", cursive;
     font-size: 20px;
 }
-.watsapp{
+.watsapp {
     position: fixed !important;
     cursor: pointer !important;
     bottom: 40px !important;
@@ -284,64 +257,49 @@ font-family: 'Uchen', serif; */
     right: 30px !important;
 }
 
-
-
 .swiper {
     width: 100%;
     height: 100%;
 }
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
-  }
+}
 
-  .swiper-slide .lottie,
-  .swiper-slide img {
+.swiper-slide .lottie,
+.swiper-slide img {
     display: block;
     width: 100%;
     margin-bottom: 80px;
-  }
-  .swiper-slide .img{
+}
+.swiper-slide .img {
     border-radius: 15px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
-  }
+}
 /* font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Uchen', serif; */
 @media screen and (max-width: 992px) {
-    .home{
+    .home {
         padding: 15px;
     }
-  }
+}
 @media screen and (max-width: 350px) {
-    .home .right-section h3{
+    .home .right-section h3 {
         font-size: 18px;
     }
-  }
+}
 @media screen and (max-width: 650px) {
-    .home .right-section h3{
+    .home .right-section h3 {
         font-size: 20px;
     }
-  }
-  
-
+}
 
 /* home css end -----------------------------------------------------  */
 
-
-
-
-
-
-
-
-
-
-
-
 /* about css start ************************************  */
 
-.about{
+.about {
     width: 100%;
     /* height: 100vh !important; */
     /* min-height: 85vh; */
@@ -350,7 +308,7 @@ font-family: 'Uchen', serif; */
 }
 
 .about .left-section,
-.about .right-section{
+.about .right-section {
     width: 100% !important;
     height: 100% !important;
     padding: 35px;
@@ -359,38 +317,38 @@ font-family: 'Uchen', serif; */
     align-items: flex-start;
     flex-direction: column;
 }
-.about .left-section img{
+.about .left-section img {
     width: 90%;
     border-radius: 15px;
     /* height: 100%; */
 }
-.about .right-section{
+.about .right-section {
     padding: 25px 20px;
 }
 .about .right-section h4,
-.heading{
+.heading {
     font-size: 25px;
     font-weight: bold;
-    font-family: 'Poppins', serif;
+    font-family: "Poppins", serif;
     margin-bottom: 10px;
     color: #00aaae;
 }
-.heading-2{
+.heading-2 {
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Poppins', serif;
+    font-family: "Poppins", serif;
     color: #00aaae;
 }
 
-.about .right-section p{
-    font-family: 'Poppins', serif;
+.about .right-section p {
+    font-family: "Poppins", serif;
     font-size: 15px;
     text-align: justify;
 }
-.about .right-section .social-medias{
+.about .right-section .social-medias {
     margin-top: 15px;
 }
-.about .right-section .social-medias > *{
+.about .right-section .social-medias > * {
     cursor: pointer;
     padding: 10px;
     background: #00aaae;
@@ -399,7 +357,7 @@ font-family: 'Uchen', serif; */
     margin-right: 10px;
     font-size: 20px;
 }
-.task{
+.task {
     padding: 10px 120px;
     margin: 0px !important;
 }
@@ -410,36 +368,36 @@ font-family: 'Uchen', serif; */
     width: 100%;
     display: flex;
     /* justify-content: center; */
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, .4);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     margin-top: 15px;
     align-items: center;
     flex-direction: column;
     padding: 15px 15px !important;
 }
-.task img{
+.task img {
     height: 150px;
     border-radius: 10px;
     margin: 10px;
 }
-.task h3{
+.task h3 {
     color: #00aaae;
     font-weight: bold;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     margin-bottom: 15px;
 }
-.task p{
+.task p {
     text-align: justify;
     font-size: 16px;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
-.mission-head{
+.mission-head {
     font-weight: bold;
     font-size: 1.8rem;
     color: #00aaae;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
-.about-testimonial .swiper-slide{
+.about-testimonial .swiper-slide {
     background: #dbfeff;
     display: flex;
     justify-content: center;
@@ -448,56 +406,46 @@ font-family: 'Uchen', serif; */
     padding: 25px 80px;
     border-radius: 15px;
 }
-.about-testimonial .swiper-slide img{
+.about-testimonial .swiper-slide img {
     width: 300px;
     border-radius: 25px;
 }
 @media screen and (max-width: 992px) {
-    .about{
+    .about {
         padding: 15px !important;
         margin: 0px !important;
     }
-    .task{
+    .task {
         padding: 15px !important;
     }
-    .about .left-section img{
+    .about .left-section img {
         width: 100%;
     }
-    .product-slider{
+    .product-slider {
         padding: 0px 70px !important;
     }
-  }
+}
 @media screen and (max-width: 450px) {
-    .heading-2{
-        font-size: 21px ;
+    .heading-2 {
+        font-size: 21px;
     }
-  }
-
+}
 
 /* about css end ************************************  */
 
-
-
-
-
-
-
-
-
-
 /* product css start **************************************** */
-.gallery{
-    padding-top: 55px 30px 0px 30px; 
+.gallery {
+    padding-top: 55px 30px 0px 30px;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0px auto 0px !important;
     /* background: rgb(255,255,255); */
     /* background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%); */
 }
-.gallery .attached-banner{
-    background: url('/img/banner\ 2.jpg') no-repeat;
+.gallery .attached-banner {
+    background: url("/img/banner\ 2.jpg") no-repeat;
     background-size: cover;
     background-position: top 70px center;
     background-attachment: fixed;
@@ -509,8 +457,8 @@ font-family: 'Uchen', serif; */
     justify-content: center;
     align-items: flex-start;
 }
-.gallery .attached-banner-2{
-    background: url('/img/banner.jpg') no-repeat;
+.gallery .attached-banner-2 {
+    background: url("/img/banner.jpg") no-repeat;
     background-size: cover;
     background-position: top 70px center;
     background-attachment: fixed;
@@ -522,8 +470,8 @@ font-family: 'Uchen', serif; */
     justify-content: center;
     align-items: flex-start;
 }
-.product-section .attached-banner-2{
-    background: url('/img/image\ 13.jpg') no-repeat;
+.product-section .attached-banner-2 {
+    background: url("/img/image\ 13.jpg") no-repeat;
     background-size: cover;
     background-position: top 70px center;
     background-attachment: fixed;
@@ -535,49 +483,39 @@ font-family: 'Uchen', serif; */
     justify-content: center;
     align-items: flex-start;
 }
-.gallery .product img{
+.gallery .product img {
     width: 100%;
     cursor: pointer;
     transition: 1s ease;
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
-.gallery .product{
+.gallery .product {
     overflow: hidden;
     border-radius: 10px;
     margin-top: 20px;
 }
-.gallery .product img:hover{
+.gallery .product img:hover {
     transform: scale(1.2);
 }
-.gallery .second-row.not-active{
+.gallery .second-row.not-active {
     display: none;
 }
 /* product css end   **************************************** */
 
-
-
-
-
-
-
-
-
 /* why us section css start  */
-.why-us{
+.why-us {
     height: auto;
     padding: 25px 100px 0px 100px;
-    margin: auto !important; 
+    margin: auto !important;
 }
-.why-us.about{
+.why-us.about {
     padding: 25px 100px 0px 0px;
     margin: auto !important;
     background: white;
 }
-/* .why-us .row{
-    border-bottom: 1px solid #00aaae;
-} */
-.why-us .color{
+
+.why-us .color {
     display: flex;
     background: #e0d7e9;
     /* justify-content: center; */
@@ -588,16 +526,16 @@ font-family: 'Uchen', serif; */
     padding: 15px;
     margin-top: 50px;
 }
-.why-us .color-2{
+.why-us .color-2 {
     background: #e9f3cb;
 }
-.why-us .color-3{
+.why-us .color-3 {
     background: #fbd0e2;
 }
-.why-us .color-4{
+.why-us .color-4 {
     background: #fbd9db;
 }
-.why-us .color i{
+.why-us .color i {
     font-size: 2.5rem;
     padding: 20px;
     border-radius: 50%;
@@ -605,25 +543,25 @@ font-family: 'Uchen', serif; */
     color: #00aaae;
     margin-bottom: 20px;
 }
-.why-us .color h4{
-    font-family: 'Poppins';
+.why-us .color h4 {
+    font-family: "Poppins";
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
 }
-.why-us .color p{
-    font-family: 'Poppins';
+.why-us .color p {
+    font-family: "Poppins";
     font-size: 15px;
     margin-top: 10px;
     text-align: center;
 }
-.why-us h1{
+.why-us h1 {
     color: #00aaae;
 }
-.why-us hr{
+.why-us hr {
     margin-bottom: 30px !important;
 }
-.why-us .icon{
+.why-us .icon {
     padding: 15px 25px;
     display: flex;
     /* justify-content: center; */
@@ -631,8 +569,7 @@ font-family: 'Uchen', serif; */
     flex-direction: column;
 }
 
-
-.why-us .icon i{
+.why-us .icon i {
     padding: 25px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
     border-radius: 50%;
@@ -640,110 +577,92 @@ font-family: 'Uchen', serif; */
     background: #00aaae;
     color: white;
 }
-.why-us .icon h4{
+.why-us .icon h4 {
     font-size: 22px;
     margin-top: 20px;
     text-transform: uppercase;
     color: rgb(22, 55, 98);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-.why-us .icon p{
+.why-us .icon p {
     text-align: justify;
     margin-top: 10px;
-    font-family: 'Uchen', serif;
+    font-family: "Uchen", serif;
 }
 @media screen and (max-width: 992px) {
-    .why-us{
+    .why-us {
         padding: 15px;
     }
-  }
+}
 /* why us section css end  */
 
-
-
-
-
 /* banner section css start  */
-.banner{
+.banner {
     width: 100%;
-    
+
     margin: auto !important;
     padding: 60px 100px 0px 100px;
 }
-.banner .banner-img{
+.banner .banner-img {
     border-radius: 15px;
 }
-.banner img{
+.banner img {
     width: 100%;
     cursor: pointer;
     transition: 1s;
     border-radius: 15px;
 }
-.banner img:hover{
+.banner img:hover {
     transform: scale(1.4) rotate(-10deg);
 }
 /* banner section css end  */
 
-
-
-
-
-
-
 /* product section css start -----------------------  */
-.product-slider{
-        /* padding-top: 50px !important; */
-        width: 100%;
-        margin: auto !important;
-        /* height: 85vh; */
-        padding: 10px 110px;
-        margin-bottom: 25px !important;
+.product-slider {
+    /* padding-top: 50px !important; */
+    width: 100%;
+    margin: auto !important;
+    /* height: 85vh; */
+    padding: 10px 110px;
+    margin-bottom: 25px !important;
 }
-.product-slider h3{
-    font-family: 'Poppins';
+.product-slider h3 {
+    font-family: "Poppins";
     margin-top: -65px;
     font-size: 20px;
     font-weight: bold;
 }
 /* product section css end -----------------------  */
 
-
-
-
-
-
-
-
-
 /* foooter section start  */
 
-.footer{
+.footer {
     padding: 150px 100px 0px 100px !important;
 }
 .footer .logo,
-.footer .contact-us{
+.footer .contact-us {
     width: 100%;
     height: 100%;
 }
 
-.footer .logo{
-    padding: 0px 60px;
+.footer .logo {
+    padding: 0px 70px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
-.footer .logo img{
+.footer .logo img {
     width: 100px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
-.footer .logo p{
-    font-family: 'Poppins', sans-serif;
+.footer .logo p {
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     text-align: justify;
 }
-.footer .logo .icons i{
+.footer .logo .icons i {
     color: white;
     padding: 10px;
     border-radius: 50%;
@@ -753,38 +672,38 @@ font-family: 'Uchen', serif; */
     transition: 0.8s;
     background: #00aaae;
 }
-.footer .logo .icons i:hover{
+.footer .logo .icons i:hover {
     color: #00aaae;
     background: white;
 }
-.footer .contact-us{
+.footer .contact-us {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
-.footer h3{
+.footer h3 {
     color: #00aaae;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 22px;
     font-weight: bold;
     margin-top: 40px;
 }
-.footer .contact-us p{
+.footer .contact-us p {
     font-size: 15px;
     text-align: justify;
     margin: 0;
     margin-bottom: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.footer-hr{
+.footer-hr {
     width: 50%;
     height: 2px !important;
     border-radius: 15px;
     background: #00aaae;
     margin-bottom: 40px;
 }
-.footer-hr-2{
+.footer-hr-2 {
     width: 2px;
     height: 2px;
     border-radius: 550%;
@@ -792,24 +711,24 @@ font-family: 'Uchen', serif; */
     padding: 1px;
     margin-left: 3px;
 }
-.footer .guide{
-    padding-left: 10px !important;
+.footer .guide {
+    padding-left: 120px !important;
 }
-.footer .guide ul li a{
+.footer .guide ul li a {
     margin-left: 15px;
     transition: 0.5s;
     color: black;
     font-size: 16px;
 }
-.footer .guide ul li i{
+.footer .guide ul li i {
     color: #00aaae;
     cursor: pointer;
     transition: 0.5s;
 }
-.footer .join img{
+.footer .join img {
     width: 40%;
 }
-.footer .contact-us input{
+.footer .contact-us input {
     width: 100%;
     height: 40px;
     border-top-left-radius: 8px;
@@ -817,10 +736,10 @@ font-family: 'Uchen', serif; */
     border-right: none;
     border: 1px solid #00aaae;
 }
-.footer .contact-us i{
+.footer .contact-us i {
     color: #00aaae;
 }
-.footer .contact-us button{
+.footer .contact-us button {
     border: none;
     background: #00aaae;
     display: flex;
@@ -834,73 +753,64 @@ font-family: 'Uchen', serif; */
     border-bottom-right-radius: 8px;
     color: white !important;
 }
-.footer .contact-us button i{
+.footer .contact-us button i {
     color: white;
 }
-.footer .join img{
+.footer .join img {
     margin-top: 25px;
     margin-right: 8px;
     border-radius: 8px;
 }
-.main-hr{
+.main-hr {
     width: 80%;
     background: #00aaae;
     margin: auto;
 }
-.main-hr-2{
+.main-hr-2 {
     width: 100%;
     margin-bottom: 20px !important;
     margin-top: 50px !important;
 }
-.footer .copy-right{
+.footer .copy-right {
     font-weight: 600;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 @media screen and (max-width: 992px) {
-    .footer .logo{
+    .footer .logo {
         padding: 0px;
     }
-    .footer .guide{
+    .footer .guide {
         padding-left: 0px !important;
     }
-    .footer .contact-us{
+    .footer .contact-us {
         padding: 0px;
     }
-    .banner{
+    .banner {
         padding: 10px;
     }
-    .footer{
+    .footer {
         padding: 40px !important;
         margin-top: 50px;
         padding-bottom: 10px !important;
     }
-    .footer .logo{
+    .footer .logo {
         padding: 0px;
     }
-  }
-  @media screen and (max-width: 450px) {
-    .button-view{
+}
+@media screen and (max-width: 450px) {
+    .button-view {
         font-size: 14px;
     }
-  }
-  @media screen and (max-width: 350px) {
-    .button-view{
+}
+@media screen and (max-width: 350px) {
+    .button-view {
         font-size: 10px;
     }
-  }
+}
 /* foooter section end  */
 
-
-
-
-
-
-
-
-
-
 /* contact css start **************************************** */
-.contact{
+.contact {
     margin-top: 100px;
     padding: 10px 50px;
     display: flex;
@@ -910,24 +820,24 @@ font-family: 'Uchen', serif; */
 }
 
 .contact .left-section,
-.contact .right-section{
+.contact .right-section {
     width: 100%;
     height: 100%;
     position: relative;
 }
-.contact .left-section{
+.contact .left-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.contact .left-section img{
+.contact .left-section img {
     width: 65%;
 }
-.contact .right-section{
+.contact .right-section {
     padding: 10px 100px;
 }
-.contact .right-section input{
+.contact .right-section input {
     margin-bottom: 18px;
     padding: 0px 10px;
     transition: 0.8s;
@@ -937,14 +847,14 @@ font-family: 'Uchen', serif; */
     width: 100% !important;
     height: 25px;
 }
-.contact .right-section input:focus{
+.contact .right-section input:focus {
     height: 40px;
     border: none;
 }
-.contact .right-section button{
+.contact .right-section button {
     padding: 8px 30px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     transition: 0.8s;
     background: #00aaae;
     border: none;
@@ -952,21 +862,21 @@ font-family: 'Uchen', serif; */
     margin-top: 40px;
     border-radius: 5px;
 }
-.button-view{
+.button-view {
     padding: 8px 20px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     transition: 0.8s;
     background: #00aaae;
     border: none;
     border: 1px solid #00aaae;
     border-radius: 5px;
 }
-.contact .right-section button:hover{
+.contact .right-section button:hover {
     color: #00aaae;
     background: white;
 }
-.button-view:hover{
+.button-view:hover {
     color: #00aaae;
     background: white;
 }
@@ -975,57 +885,51 @@ font-family: 'Uchen', serif; */
     margin-top: 60px;
     border-radius: 15px;
 } */
-.banner-contact{
+.banner-contact {
     margin-top: 50px;
     margin: 50px auto 0px !important;
     padding: 10px 50px;
 }
 .banner-contact .left-section,
-.banner-contact .right-section{
+.banner-contact .right-section {
     width: 100% !important;
     padding: 20px;
 }
-.banner-contact .right-section img{
+.banner-contact .right-section img {
     width: 100% !important;
     border-radius: 15px;
 }
 @media screen and (max-width: 992px) {
-    .contact{
+    .contact {
         padding: 15px !important;
         margin-top: 10px !important;
     }
-    .contact .right-section{
+    .contact .right-section {
         padding: 30px !important;
     }
-    .contact .left-section img{
+    .contact .left-section img {
         width: 90% !important;
     }
-    .banner-contact{
+    .banner-contact {
         padding: 0px;
     }
-  }
+}
 /* contact css end **************************************** */
 
-
-
-
-
-
-
 /* product css start ************************ */
-.product-section{
+.product-section {
     width: 100%;
-    margin:auto !important;
+    margin: auto !important;
     /* height: 85vh; */
     padding: 10px 50px;
     position: relative;
 }
-.product-section img{
+.product-section img {
     width: 100%;
     border-radius: 10px;
 }
 
-.product-section .product-content{
+.product-section .product-content {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 15px !important;
@@ -1033,26 +937,26 @@ font-family: 'Uchen', serif; */
     border-left: 1px solid #00aaae;
     margin-top: 20px;
 }
-.product-section .product-content .text-content{
+.product-section .product-content .text-content {
     margin-top: 10px;
     padding-bottom: 15px;
 }
-.product-section .product-content .text-content h3{
+.product-section .product-content .text-content h3 {
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     /* font-family: 'Uchen', serif; */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.product-section .product-content .text-content p{
+.product-section .product-content .text-content p {
     text-align: justify;
     margin-top: 15px;
-    font-family: 'Poppins', serif;
+    font-family: "Poppins", serif;
     font-size: 14px;
 }
-.product-section .product-content .text-content .span-text{
+.product-section .product-content .text-content .span-text {
     position: absolute;
     top: 45px;
     right: 40px;
@@ -1062,109 +966,82 @@ font-family: 'Uchen', serif; */
     border-radius: 5px;
     padding: 5px 15px;
 }
-.product-section .product-content .text-content .d-flex i{
+.product-section .product-content .text-content .d-flex i {
     color: #00aaae;
     font-size: 18px;
     margin-right: 5px;
 }
 @media screen and (max-width: 992px) {
-    .product-section{
+    .product-section {
         padding: 10px 20px !important;
     }
-  }
+}
 /* product css end ************************ */
 
-
-
-
-
-
-
-
-
-
 /* loader css starts -------------------  */
-/*@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap");*/
-
 
 .loader-section {
-	display: flex;
+    display: flex;
     position: relative;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
     width: 100%;
 }
-.bg-logo{
+.bg-logo {
     position: absolute;
     width: 80px;
 }
 .loader {
-  	position: relative;
-	width: 220px;
-	height: 220px;
-	filter: url(#gooey);
+    position: relative;
+    width: 220px;
+    height: 220px;
+    filter: url(#gooey);
     /* background: url(../img/logo.png) no-repeat;
     background-size: cover;
     background-position: top center; */
-	animation: animate 16s linear infinite;
+    animation: animate 16s linear infinite;
 }
 
-.loader span{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: block;
-	transform: rotate(calc(45deg * var(--i)));
+.loader span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transform: rotate(calc(45deg * var(--i)));
 }
 
 .loader span::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: calc(50% - 20px);
-	width: 30px;
-	height: 30px;
-	background: linear-gradient(45deg, #c7eeff, #03a9f4);
-	border-radius: 50%;
-	box-shadow: 0 0 30px #00bc4d;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(50% - 20px);
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #c7eeff, #03a9f4);
+    border-radius: 50%;
+    box-shadow: 0 0 30px #00bc4d;
 }
 
-.rotate{
-	animation: animate 4s ease-in-out infinite;
-	animation-delay: calc(-0.2s * var(--j));
+.rotate {
+    animation: animate 4s ease-in-out infinite;
+    animation-delay: calc(-0.2s * var(--j));
 }
 
 @keyframes animate {
-	0%
-	{
-		transform: rotate(0deg);
-	}
-	100%
-	{
-		transform: rotate(360deg);
-	}
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
-svg{
-	width: 0;
-	height: 0;
+svg {
+    width: 0;
+    height: 0;
 }
 /* loader css starts -------------------  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
