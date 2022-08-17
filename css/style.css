@@ -310,6 +310,17 @@ font-family: 'Uchen', serif; */
         padding: 15px;
     }
   }
+@media screen and (max-width: 350px) {
+    .home .right-section h3{
+        font-size: 18px;
+    }
+  }
+@media screen and (max-width: 650px) {
+    .home .right-section h3{
+        font-size: 20px;
+    }
+  }
+  
 
 
 /* home css end -----------------------------------------------------  */
@@ -449,7 +460,17 @@ font-family: 'Uchen', serif; */
     .about .left-section img{
         width: 100%;
     }
+    .product-slider{
+        padding: 5px 50px !important;
+    }
   }
+@media screen and (max-width: 450px) {
+    .heading-2{
+        font-size: 21px ;
+    }
+  }
+
+
 /* about css end ************************************  */
 
 
@@ -668,9 +689,9 @@ font-family: 'Uchen', serif; */
 
 /* product section css start -----------------------  */
 .product-slider{
-        padding-top: 50px !important;
+        /* padding-top: 50px !important; */
         width: 100%;
-        margin:auto !important;
+        margin: auto !important;
         /* height: 85vh; */
         padding: 10px 110px;
 }
@@ -859,7 +880,7 @@ font-family: 'Uchen', serif; */
   }
   @media screen and (max-width: 350px) {
     .button-view{
-        font-size: 12px;
+        font-size: 10px;
     }
   }
 /* foooter section end  */
@@ -927,7 +948,7 @@ font-family: 'Uchen', serif; */
     border-radius: 5px;
 }
 .button-view{
-    padding: 8px 30px;
+    padding: 8px 20px;
     color: white;
     font-family: 'Poppins', sans-serif;
     transition: 0.8s;

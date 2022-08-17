@@ -1,7 +1,7 @@
 
 
 function myFunction() {
-  myVar = setTimeout(showPage, 2000);
+  myVar = setTimeout(showPage, 3000);
 }
 
 function showPage() {
@@ -56,12 +56,12 @@ var swiper = new Swiper(".mySwiper", {
 
 
   var swiper = new Swiper(".mySwiper-2", {
-    slidesPerView: 0.9,
+    slidesPerView: 1.2,
     spaceBetween: 30,
     grabCursor: true,
     autoplay: {
-      delay: 8000,
-      disableOnInteraction: false
+      delay: 1000,
+      disableOnInteraction: true
     },
     breakpoints: {
       640: {
