@@ -183,15 +183,15 @@ font-family: 'Uchen', serif; */
     /* font-family: 'Oleo Script Swash Caps', cursive; */
     /* font-family: 'Acme', sans-serif; */
     font-family: 'Poppins', serif;
-    font-size: 3.5rem;
+    font-size: 4.2rem;
     font-weight: bold;
     color: rgb(12, 98, 113);
 }
 .hero .h1-2{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Oleo Script Swash Caps', cursive; */
-    top: 270px;
-    font-size: 1.8rem;
+    top: 280px;
+    font-size: 1.5rem;
 }
 .hero .button-flex{
     position: absolute;

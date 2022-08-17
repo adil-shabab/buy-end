@@ -1,7 +1,7 @@
 
 
 function myFunction() {
-  myVar = setTimeout(showPage, 3000);
+  myVar = setTimeout(showPage, 1500);
 }
 
 function showPage() {
@@ -9,7 +9,7 @@ function showPage() {
   document.querySelector(".body").style.display = "block";
 }
 
-// myFunction()
+myFunction()
 
 //   $(window).scroll(function(){
 //     if ($(this).scrollTop() > 100) {
