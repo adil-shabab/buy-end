@@ -117,11 +117,11 @@ font-family: 'Uchen', serif; */
 }
 .navbar ul.active{
     position: absolute;
-    margin:10vh auto 0;
+    margin: 3vh auto 0;
     align-items: center;
     right: 10px;
     z-index: 11;
-    width: 40%;
+    width: 100%;
     top: 80px;
     box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -133,6 +133,9 @@ font-family: 'Uchen', serif; */
 }
 .navbar ul.active li{
     margin-bottom: 10px;
+}
+.navbar ul.active li a.active{
+    border-bottom: 1px solid #00aaae;
 }
 
 
@@ -461,7 +464,7 @@ font-family: 'Uchen', serif; */
         width: 100%;
     }
     .product-slider{
-        padding: 5px 50px !important;
+        padding: 0px 70px !important;
     }
   }
 @media screen and (max-width: 450px) {
@@ -694,6 +697,7 @@ font-family: 'Uchen', serif; */
         margin: auto !important;
         /* height: 85vh; */
         padding: 10px 110px;
+        margin-bottom: 25px !important;
 }
 .product-slider h3{
     font-family: 'Poppins';
@@ -714,7 +718,7 @@ font-family: 'Uchen', serif; */
 /* foooter section start  */
 
 .footer{
-    padding: 150px 100px 20px 100px !important;
+    padding: 150px 100px 0px 100px !important;
 }
 .footer .logo,
 .footer .contact-us{
@@ -868,6 +872,7 @@ font-family: 'Uchen', serif; */
     .footer{
         padding: 40px !important;
         margin-top: 50px;
+        padding-bottom: 10px !important;
     }
     .footer .logo{
         padding: 0px;
