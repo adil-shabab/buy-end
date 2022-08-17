@@ -9,7 +9,7 @@ function showPage() {
   document.querySelector(".body").style.display = "block";
 }
 
-myFunction()
+// myFunction()
 
 //   $(window).scroll(function(){
 //     if ($(this).scrollTop() > 100) {

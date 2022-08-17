@@ -1089,18 +1089,25 @@ font-family: 'Uchen', serif; */
 
 .loader-section {
 	display: flex;
+    position: relative;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	background: white;
     width: 100%;
 }
-
+.bg-logo{
+    position: absolute;
+    width: 80px;
+}
 .loader {
-	position: relative;
-	width: 250px;
-	height: 250px;
+  	position: relative;
+	width: 220px;
+	height: 220px;
 	filter: url(#gooey);
+    /* background: url(../img/logo.png) no-repeat;
+    background-size: cover;
+    background-position: top center; */
 	animation: animate 16s linear infinite;
 }
 
@@ -1119,8 +1126,8 @@ font-family: 'Uchen', serif; */
 	position: absolute;
 	top: 0;
 	left: calc(50% - 20px);
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	background: linear-gradient(45deg, #c7eeff, #03a9f4);
 	border-radius: 50%;
 	box-shadow: 0 0 30px #00bc4d;
