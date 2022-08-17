@@ -1,5 +1,16 @@
 
 
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.querySelector(".body").style.display = "block";
+}
+
+myFunction()
+
 //   $(window).scroll(function(){
 //     if ($(this).scrollTop() > 100) {
 //        $('.navbar').addClass('small-box-shadow');

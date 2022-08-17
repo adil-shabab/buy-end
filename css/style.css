@@ -23,6 +23,10 @@ body{
     position: relative;
     width: 100%;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .hr{
     width: 40%;
@@ -37,8 +41,11 @@ body{
     -webkit-text-stroke-color: #00aaae;
     color: transparent;
     font-family: 'Finlandica', sans-serif;
-  }
+}
 
+.body{
+    display: none;
+}
 /* font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Uchen', serif; */
@@ -761,7 +768,7 @@ font-family: 'Uchen', serif; */
     margin-left: 3px;
 }
 .footer .guide{
-    padding-left: 100px !important;
+    padding-left: 10px !important;
 }
 .footer .guide ul li a{
     margin-left: 15px;
@@ -840,6 +847,19 @@ font-family: 'Uchen', serif; */
     .footer{
         padding: 40px !important;
         margin-top: 50px;
+    }
+    .footer .logo{
+        padding: 0px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .button-view{
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .button-view{
+        font-size: 12px;
     }
   }
 /* foooter section end  */
@@ -1035,6 +1055,72 @@ font-family: 'Uchen', serif; */
 
 
 
+
+
+/* loader css starts -------------------  */
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap");*/
+
+
+.loader-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: white;
+    width: 100%;
+}
+
+.loader {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	filter: url(#gooey);
+	animation: animate 16s linear infinite;
+}
+
+.loader span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	transform: rotate(calc(45deg * var(--i)));
+}
+
+.loader span::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: calc(50% - 20px);
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(45deg, #c7eeff, #03a9f4);
+	border-radius: 50%;
+	box-shadow: 0 0 30px #00bc4d;
+}
+
+.rotate{
+	animation: animate 4s ease-in-out infinite;
+	animation-delay: calc(-0.2s * var(--j));
+}
+
+@keyframes animate {
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+
+svg{
+	width: 0;
+	height: 0;
+}
+/* loader css starts -------------------  */
 
 
 
