@@ -11,16 +11,6 @@ function showPage() {
 
 myFunction()
 
-//   $(window).scroll(function(){
-//     if ($(this).scrollTop() > 100) {
-//        $('.navbar').addClass('small-box-shadow');
-//        $('.logo').css("width", "55px")
-//        $('.menu-icon').css("font-size","28px")
-//        $('.navbar').removeClass('small-box-shadow');
-//        $('.logo').css("width", "100px")
-//        $('.menu-icon').css("font-size","38px")
-//     }
-// });
 
 
 
