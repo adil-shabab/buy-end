@@ -185,21 +185,42 @@ body {
         display: none;
     }
     .hero {
-        background: url(../img/product\9jpg) no-repeat;
+        background: url(../img/bg-2.jpg) no-repeat;
         background-size: cover;
         background-position: top center;
     }
     .hero h1 {
-        display: none;
+        /* display: none; */
+        font-size: 3rem;
+        left: 100px;
+        top: 70px;
     }
     .hero .h1-2 {
-        display: none;
+        top: 130px;
+        font-size: 1.1rem;
     }
     .hero button {
         display: none;
     }
     .hero lottie-player {
         display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    .hero {
+        background: url(../img/bg-1.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    .hero h1 {
+        /* display: none; */
+        font-size: 2rem;
+        left: 100px;
+        top: 70px;
+    }
+    .hero .h1-2 {
+        top: 130px;
+        font-size: 1rem;
     }
 }
 /* hero section  end ******************************************  */
