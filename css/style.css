@@ -77,7 +77,7 @@ body {
     padding: 15px 100px !important;
 }
 .navbar .logo {
-    width: 60px;
+    width: 80px;
 }
 .navbar ul li {
     margin-right: 30px;
@@ -667,7 +667,7 @@ font-family: 'Uchen', serif; */
 }
 
 .footer .logo {
-    padding: 0px 70px;
+    padding: 0px 30px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -683,20 +683,7 @@ font-family: 'Uchen', serif; */
     font-size: 14px;
     text-align: justify;
 }
-.footer .logo .icons i {
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    margin-right: 10px;
-    cursor: pointer;
-    border: 1px solid #00aaae;
-    transition: 0.8s;
-    background: #00aaae;
-}
-.footer .logo .icons i:hover {
-    color: #00aaae;
-    background: white;
-}
+
 .footer .contact-us {
     display: flex;
     flex-direction: column;
@@ -733,7 +720,10 @@ font-family: 'Uchen', serif; */
     margin-left: 3px;
 }
 .footer .guide {
-    padding-left: 120px !important;
+    padding-left: 20px !important;
+}
+.footer .guide ul li{
+    margin-top: 10px;
 }
 .footer .guide ul li a {
     margin-left: 15px;
@@ -796,15 +786,38 @@ font-family: 'Uchen', serif; */
     font-weight: 600;
     font-family: "Poppins";
 }
+.footer .social-media{
+    padding-left: 50px;
+}
+.footer .social-media i {
+    color: white;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #00aaae;
+    transition: 0.8s;
+    background: #00aaae;
+}
+.footer .social-media .icons i:hover {
+    color: #00aaae;
+    background: white;
+}
+.footer .social-media p{
+    margin-bottom: -5px;
+    margin-left: 13px;
+}
 @media screen and (max-width: 992px) {
     .footer .logo {
         padding: 0px;
+        padding-right: 20px;
     }
     .footer .guide {
         padding-left: 0px !important;
     }
     .footer .contact-us {
-        padding: 0px;
+        padding: 0;
+        padding-right: 0px;
     }
     .banner {
         padding: 10px;
@@ -813,9 +826,6 @@ font-family: 'Uchen', serif; */
         padding: 40px !important;
         margin-top: 50px;
         padding-bottom: 10px !important;
-    }
-    .footer .logo {
-        padding: 0px;
     }
 }
 @media screen and (max-width: 450px) {
