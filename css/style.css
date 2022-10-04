@@ -74,7 +74,7 @@ body {
 .navbar {
     width: 100%;
     background: white;
-    padding: 15px 100px !important;
+    padding: 15px 150px !important;
 }
 .navbar .logo {
     width: 80px;
@@ -230,7 +230,6 @@ body {
     width: 100%;
     margin: auto !important;
     /* height: 85vh; */
-    padding: 10px 110px;
 }
 .home .left-section,
 .home .right-section {
@@ -254,7 +253,7 @@ body {
     padding: 5px 40px !important;
 }
 .home .right-section h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
     font-weight: bold;
     font-family: "Poppins", serif;
@@ -324,7 +323,6 @@ font-family: 'Uchen', serif; */
     width: 100%;
     /* height: 100vh !important; */
     /* min-height: 85vh; */
-    padding: 40px 100px 80px 100px !important;
     position: relative;
 }
 
@@ -332,7 +330,6 @@ font-family: 'Uchen', serif; */
 .about .right-section {
     width: 100% !important;
     height: 100% !important;
-    padding: 35px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -379,7 +376,6 @@ font-family: 'Uchen', serif; */
     font-size: 20px;
 }
 .task {
-    padding: 10px 120px;
     margin: 0px !important;
 }
 .task .mission,
@@ -395,6 +391,7 @@ font-family: 'Uchen', serif; */
     align-items: center;
     flex-direction: column;
     padding: 15px 15px !important;
+    margin-bottom: 50px;
 }
 .task img {
     height: 150px;
@@ -465,34 +462,32 @@ font-family: 'Uchen', serif; */
     /* background: rgb(255,255,255); */
     /* background: linear-gradient(90deg, rgba(255,255,255,1) 43%, rgba(235,238,253,1) 59%); */
 }
-.gallery .attached-banner {
-    background: url("/img/banner\ 2.jpg") no-repeat;
+.attached-banner {
+    background: url("/images/banner-1.png") no-repeat;
     background-size: cover;
     background-position: top 70px center;
     background-attachment: fixed;
     width: 100%;
     height: 60vh;
-    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
-.gallery .attached-banner-2 {
-    background: url("/img/p 15.jpg") no-repeat;
+.attached-banner-2 {
+    background: url("/images/banner-2.png") no-repeat;
     background-size: cover;
     background-position: top 70px center;
     background-attachment: fixed;
     width: 100%;
     height: 60vh;
-    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 .product-section .attached-banner-2 {
-    background: url("/img/image\ 13.jpg") no-repeat;
+    background: url("/images/banner-1.png") no-repeat;
     background-size: cover;
     background-position: top 70px center;
     background-attachment: fixed;
@@ -527,11 +522,9 @@ font-family: 'Uchen', serif; */
 /* why us section css start  */
 .why-us {
     height: auto;
-    padding: 25px 100px 0px 100px;
     margin: auto !important;
 }
 .why-us.about {
-    padding: 25px 100px 0px 0px;
     margin: auto !important;
     background: white;
 }
@@ -543,9 +536,9 @@ font-family: 'Uchen', serif; */
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
-    min-height: 250px;
+    min-height: 270px;
     padding: 15px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .why-us .color-2 {
     background: #e9f3cb;
@@ -843,7 +836,6 @@ font-family: 'Uchen', serif; */
 /* contact css start **************************************** */
 .contact {
     margin-top: 100px;
-    padding: 10px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -871,7 +863,7 @@ font-family: 'Uchen', serif; */
 .contact .right-section input {
     margin-bottom: 18px;
     padding: 0px 10px;
-    transition: 0.8s;
+    transition: 0.3s;
     border-radius: 5px;
     border: none;
     border-bottom: 1px solid #00aaae;
@@ -919,7 +911,6 @@ font-family: 'Uchen', serif; */
 .banner-contact {
     margin-top: 50px;
     margin: 50px auto 0px !important;
-    padding: 10px 50px;
 }
 .banner-contact .left-section,
 .banner-contact .right-section {

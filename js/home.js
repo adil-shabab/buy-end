@@ -32,7 +32,7 @@ var swiper = new Swiper(".mySwiper-2", {
        $('.menu-icon').css("font-size","28px")
     } else {
        $('.navbar').removeClass('small-box-shadow');
-       $('.logo').css("width", "100px")
+       $('.logo').css("width", "80px")
        $('.menu-icon').css("font-size","38px")
     }
 });
