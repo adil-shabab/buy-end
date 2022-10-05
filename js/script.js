@@ -15,17 +15,6 @@ myFunction()
 
 
 
-// home swiper 
-var swiper = new Swiper(".mySwiper", {
-  effect: "flip",
-  grabCursor: true,
-  autoplay: {
-      delay: 8000,
-      disableOnInteraction: false,
-    },
-  loop: true,
-});
-
 
 
 menubar = document.querySelector('.menu-icon')
@@ -84,3 +73,18 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 //     } else {
+
+
+
+
+// home swiper 
+var swiper = new Swiper(".mySwiper", {
+  effect: "flip",
+  grabCursor: true,
+  autoplay: {
+      delay: 8000,
+      disableOnInteraction: false,
+    },
+  loop: true,
+});
+

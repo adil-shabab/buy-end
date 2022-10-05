@@ -16,6 +16,8 @@
 
                 <!-- swiper css  -->
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+                <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
           
                 <link rel="stylesheet" href="css/style.css" />
                 <link rel="stylesheet" href="css/about.css" />
@@ -90,7 +92,7 @@
                     <h2 style="margin-top: 80px;" class="pt-2 text-center mission-head">Mission and Vision</h2>
                     <div class="container m-auto task row">
                         <div class="col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div class="w-100 mission">
+                            <div data-aos="fade-left" class="w-100 mission">
                                 <img src="images/mission.jpg" alt="" />
                                 <h3>Mission</h3>
                                 <p>
@@ -100,7 +102,7 @@
                         </div>
 
                         <div class="col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div class="w-100 vision">
+                            <div data-aos="fade-right" class="w-100 vision">
                                 <img src="images/vision.jpg" alt="" />
                                 <h3>Vision</h3>
                                 <p>
@@ -110,7 +112,7 @@
                         </div>
 
                         <div class="m-auto col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div class="w-100 objectives">
+                            <div data-aos="fade-left" class="w-100 objectives">
                                 <img src="images/idea.jpg" alt="" />
                                 <h3>Ideas</h3>
                                 <p>
@@ -128,7 +130,7 @@
 
                         <div class="row m-auto w-100">
                             <div class="col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                                <div class="color">
+                                <div data-aos="fade-left" class="color">
                                     <i class="fa-solid fa-leaf"></i>
                                     <h4>Eco Friendly</h4>
                                     <p>
@@ -137,14 +139,14 @@
                                 </div>
                             </div>
                             <div class="col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                                <div class="color color-3">
+                                <div data-aos="fade-right" class="color color-3">
                                     <i class="fa-solid fa-sack-dollar"></i>
                                     <h4>Value for money</h4>
                                     <p>The customer gets the best product at the best cost.</p>
                                 </div>
                             </div>
                             <div class="col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                                <div class="color color-2">
+                                <div data-aos="fade-left" class="color color-2">
                                     <i class="fa-solid fa-thumbs-up"></i>
                                     <h4>Quality Bags</h4>
                                     <p>
@@ -153,7 +155,7 @@
                                 </div>
                             </div>
                             <div class="mb-5 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                                <div class="color color-4">
+                                <div data-aos="fade-right" class="color color-4">
                                     <i class="fa-solid fa-handshake-angle"></i>
                                     <h4>SOCIAL ENTERPRISE</h4>
                                     <p>The organisation is not just focused on profit only</p>
@@ -283,7 +285,14 @@
 
 
 
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        
+                <script>
+                    AOS.init(
+                        {duration: 300}
+                    );
+                </script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
                 <script>
                     $('.owl-carousel').owlCarousel({
