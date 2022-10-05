@@ -109,7 +109,7 @@ body {
     position: absolute;
     margin: 3vh auto 0;
     align-items: center;
-    right: 10px;
+    right: 0px;
     z-index: 11;
     width: 100%;
     top: 80px;
@@ -185,7 +185,7 @@ body {
         display: none;
     }
     .hero {
-        background: url(../img/bg-2.jpg) no-repeat;
+        background: url('/images/bg-2.png') no-repeat;
         background-size: cover;
         background-position: top center;
     }
@@ -208,7 +208,7 @@ body {
 }
 @media screen and (max-width: 400px) {
     .hero {
-        background: url(../img/bg-1.jpg) no-repeat;
+        background: url('/images/bg-3.png') no-repeat;
         background-size: cover;
         background-position: top center;
     }
@@ -318,7 +318,40 @@ font-family: 'Uchen', serif; */
 /* home css end -----------------------------------------------------  */
 
 /* about css start ************************************  */
+.txt{
+    position: absolute;
+    top: 15px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1;
+    right: 15px;
+}
+.card-fade{
+    height: 63px;
+    background: linear-gradient(360deg, #ffffff 0%, rgb(255 255 255 / 76%) 22.4%, rgba(231, 231, 231, 0.458333) 45.96%, rgb(222 222 222 / 0%) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
 
+}
+.bg-about{
+    background: url('/images/banner-3.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-position: top center; 
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00aaae !important;
+}
 .about {
     width: 100%;
     /* height: 100vh !important; */
@@ -486,14 +519,13 @@ font-family: 'Uchen', serif; */
     justify-content: center;
     align-items: flex-start;
 }
-.product-section .attached-banner-2 {
+.attached-banner-3 {
     background: url("/images/banner-1.png") no-repeat;
     background-size: cover;
     background-position: top 70px center;
     background-attachment: fixed;
     width: 100%;
     height: 55vh;
-    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -952,11 +984,7 @@ font-family: 'Uchen', serif; */
 }
 
 .product-section .product-content {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
     padding: 15px !important;
-    border-bottom: 1px solid #00aaae;
-    border-left: 1px solid #00aaae;
     margin-top: 20px;
 }
 .product-section .product-content .text-content {

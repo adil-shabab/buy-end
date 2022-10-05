@@ -1,7 +1,7 @@
 
 
 function myFunction() {
-  myVar = setTimeout(showPage, 1500);
+  myVar = setTimeout(showPage, 700);
 }
 
 function showPage() {
@@ -12,6 +12,19 @@ function showPage() {
 myFunction()
 
 
+
+
+
+// home swiper 
+var swiper = new Swiper(".mySwiper", {
+  effect: "flip",
+  grabCursor: true,
+  autoplay: {
+      delay: 8000,
+      disableOnInteraction: false,
+    },
+  loop: true,
+});
 
 
 

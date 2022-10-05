@@ -15,10 +15,12 @@
                 <link rel="icon" href="img/logo.png" />
 
                 <!-- swiper css  -->
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+          
                 <link rel="stylesheet" href="css/style.css" />
                 <link rel="stylesheet" href="css/about.css" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <!-- Bootstrap CSS -->
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
             </head>
@@ -30,7 +32,7 @@
                         <ul class="nav-ul d-flex-full">
                             <li><a class="" href="index.html">Home</a></li>
                             <li><a class="active" href="about.html">About</a></li>
-                            <li><a href="products.html">Product</a></li>
+                            <li><a href="products.html">Clients</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="contact.html">Contact</a></li>
                             <!-- <li><a href="products.html"><i class="fa-solid fa-bag-shopping"></i></a></li> -->
@@ -41,10 +43,28 @@
                     </div>
                     <!-- navbar ******************************************* navbar  -->
 
+
+                    <div class="bg-about"></div>
                     <!-- about section starts ******************************************* -->
                     <div style="padding-top:55px;" class="m-auto container about row d-flex-full">
                         <div class="mt-3 left-section col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <img src="img/about image.jpg" alt="" />
+                            <div class="owl-carousel owl-theme">
+                                <div class="item p-md-3">
+                                    <img class="img-fluid" src="images/factory-1.png" alt="">    
+                                </div>
+                                <div class="item p-md-3">
+                                    <img class="img-fluid" src="images/factory-3.png" alt="">    
+                                </div>
+                                <div class="item p-md-3">
+                                    <img class="img-fluid" src="images/factory-2.png" alt="">    
+                                </div>
+                                <div class="item p-md-3">
+                                    <img class="img-fluid" src="images/factory-5.png" alt="">    
+                                </div>
+                                <div class="item p-md-3">
+                                    <img class="img-fluid" src="images/factory-4.png" alt="">    
+                                </div>
+                            </div>
                         </div>
                         <div class="right-section col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
                             <h4 class="mb-4">About Us</h4>
@@ -56,11 +76,13 @@
                                 Also All our products are customized as per customer’s requirements. Most of our products are handmade, quality checked in different stages of production to provide a high
                                 quality product to our customers
                             </p>
-                            <div class="social-medias">
+
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quibusdam tenetur dolores nam modi saepe, iste repellendus minima voluptates recusandae, provident dicta quasi tempore ab?</p>
+                            <!-- <div class="social-medias">
                                 <i class="fa-brands fa-instagram"></i>
                                 <i class="fa-brands fa-facebook"></i>
                                 <i class="fa-brands fa-twitter"></i>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -68,7 +90,7 @@
                     <div class="container m-auto task row">
                         <div class="col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
                             <div class="w-100 mission">
-                                <img src="img/mission 2.jpg" alt="" />
+                                <img src="images/mission.jpg" alt="" />
                                 <h3>Mission</h3>
                                 <p>
                                     Revolutionize social change through social media via evolution of new concepts. Fulfil the promise to the Environ through creating Eco-friendly products
@@ -78,7 +100,7 @@
 
                         <div class="col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
                             <div class="w-100 vision">
-                                <img src="img/vision 2.jpg" alt="" />
+                                <img src="images/vision.jpg" alt="" />
                                 <h3>Vision</h3>
                                 <p>
                                     The vision of Bioway is Grow thru participation and networking. nnovation and a commitment to product development are important characteristics of Buy End
@@ -88,7 +110,7 @@
 
                         <div class="m-auto col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
                             <div class="w-100 objectives">
-                                <img src="img/idea 3.jpg" alt="" />
+                                <img src="images/idea.jpg" alt="" />
                                 <h3>Ideas</h3>
                                 <p>
                                     Bioway visualises contributions to create Greener Planet, fulfilling the promise made to the environment – Save the Planet the Green way.
@@ -254,6 +276,23 @@
                 </section>
                 <!-- loader section end ------------------------  -->
 
+
+  
+
+
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script>
+                    $('.owl-carousel').owlCarousel({
+                        loop:true,
+                        margin:10,
+                        nav:false,
+                        items:1,
+                        autoplay:true,
+                    })
+                </script>
+                
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
                 <script src="js/testimonial.js"></script>
 
