@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     </head>
@@ -38,19 +40,19 @@
             <!-- contact section start *---------------------- -->
             <div class="contact w-100">
                 <div class="row w-100">
-                    <div class="left-section col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div data-aos="fade-left" class="left-section col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <img src="img/contact.jpg" alt="" />
                     </div>
 
                     <div class="right-section col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <h5 class="heading mb-5">Get In Touch</h5>
-                        <label for="name">Enter Your Name</label>
-                        <input name="name" class="name" type="text" />
-                        <label for="email">Enter Your Email</label>
-                        <input name="email" class="email" type="email" />
-                        <label for="message">Message</label>
-                        <input name="message" class="message" type="text" />
-                        <button>Message</button>
+                        <h5 data-aos="fade-right" class="heading mb-5">Get In Touch</h5>
+                        <label data-aos="fade-right" for="name">Enter Your Name</label>
+                        <input data-aos="fade-left" name="name" class="name" type="text" />
+                        <label data-aos="fade-right" for="email">Enter Your Email</label>
+                        <input data-aos="fade-left" name="email" class="email" type="email" />
+                        <label data-aos="fade-right" for="message">Message</label>
+                        <input data-aos="fade-left" name="message" class="message" type="text" />
+                        <button data-aos="fade-left">Message</button>
                         <lottie-player class="watsapp" src="https://assets6.lottiefiles.com/packages/lf20_6hrplbhl.json" background="transparent" speed="0.5" style="width: 75px; height: 75px;" loop autoplay></lottie-player>
                     </div>
                 </div>
@@ -58,13 +60,13 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.743533315883!2d75.78196221459385!3d11.280253591980886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65eb7f8925e01%3A0xd70b61e5b89ffea0!2sEranhipaalam%2C%20Eranhippalam%2C%20Kozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1660128320355!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div> -->
                 <div class="container banner-contact row w-100">
-                    <div class="right-section col-xlg-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div data-aos="zoom-in-up" class="right-section col-xlg-4 col-lg-4 col-md-4 col-sm-12 col-12">
                         <img src="images/product-12.png" alt="" />
                     </div>
-                    <div class="right-section col-xlg-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div data-aos="zoom-in-up" class="right-section col-xlg-4 col-lg-4 col-md-4 col-sm-12 col-12">
                         <img src="images/product-13.png" alt="" />
                     </div>
-                    <div class="right-section col-xlg-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div data-aos="zoom-in-up" class="right-section col-xlg-4 col-lg-4 col-md-4 col-sm-12 col-12">
                         <img src="images/product-14.png" alt="" />
                     </div>
                     
@@ -177,6 +179,18 @@
         </section>
         <!-- loader section end ------------------------  -->
 
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+        <script>
+            AOS.init(
+                {duration: 300}
+            );
+        </script>
         <!-- swiper js  -->
         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
         <!-- lottiefiles js  -->
