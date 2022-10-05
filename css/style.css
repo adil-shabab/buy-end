@@ -989,7 +989,6 @@ font-family: 'Uchen', serif; */
 }
 .product-section .product-content .text-content {
     margin-top: 10px;
-    padding-bottom: 15px;
 }
 .product-section .product-content .text-content h3 {
     font-size: 18px;
@@ -1021,6 +1020,10 @@ font-family: 'Uchen', serif; */
     font-size: 18px;
     margin-right: 5px;
 }
+
+
+
+
 @media screen and (max-width: 992px) {
     .product-section {
         padding: 10px 20px !important;
