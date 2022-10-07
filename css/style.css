@@ -814,6 +814,10 @@ font-family: 'Uchen', serif; */
 }
 .footer .guide ul li{
     margin-top: 10px;
+    transition: 0.8s;
+}
+.footer .guide ul li:hover{
+    transform: translateX(25px);
 }
 .footer .guide ul li a {
     margin-left: 15px;
@@ -889,14 +893,12 @@ font-family: 'Uchen', serif; */
     transition: 0.8s;
     background: #00aaae;
 }
-.footer .social-media .icons i:hover {
-    color: #00aaae;
-    background: white;
-}
+
 .footer .social-media p{
     margin-bottom: -5px;
     margin-left: 13px;
 }
+
 @media screen and (max-width: 992px) {
     .footer .logo {
         padding: 0px;
