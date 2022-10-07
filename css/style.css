@@ -677,7 +677,7 @@ font-family: 'Uchen', serif; */
   }
   
   .features-section .left{
-    background-image: url("../images/shape-1.png") ;
+    background-image: url("../images/banner-4.png") ;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -698,9 +698,34 @@ font-family: 'Uchen', serif; */
     border-radius: 10px;
     box-shadow: 0px 1px 2px rgba(0, 00, 0, 0.7);
   }
-
-
-
+  .office-head{ 
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .office-txt{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    margin-left: 60px;
+}
+@media screen and (max-width: 750px) {
+    .features-section .left{
+        background-image: url("") ;
+    }
+    .office-head{
+        color: #00aaae;
+        font-size: 25px;
+    }
+      .office-txt{
+        margin-left: 0px;
+        color: #00aaae;
+        font-size: 25px;
+    }
+}
 
 
 /* product section css start -----------------------  */
