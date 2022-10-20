@@ -20,23 +20,29 @@
     <body>
         <div class="body w-100 m-0 p-0">
             <!-- navbar ******************************************* navbar  -->
-            <div class="sticky-top small-box-shadow navbar index-navbar d-flex-full">
-                <img style="width: 55px;" src="img/logo.png" alt="" class="logo" />
+            <div class="sticky-top navbar index-navbar d-flex-full">
+                <img src="img/logo.png" alt="" class="logo" />
                 <ul class="nav-ul d-flex-full">
-                    <li><a class="" href="index.html">Home</a></li>
+                    <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="clients.html">Clients</a></li>
                     <li><a href="products.html">Products</a></li>
-                    <li><a class="active" href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <!-- <li><a href="products.html"><i class="fa-solid fa-bag-shopping"></i></a></li> -->
                 </ul>
+                <div class="ml-5 nav-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/buyend_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+
 
                 <img class="menu-icon" src="img/menu-icon.png" alt="" />
                 <img class="close-icon" src="img/close-icon.png" alt="" />
             </div>
             <!-- navbar ******************************************* navbar  -->
-
             <div class="col-12 attached-banner-2 p-0"></div>
             <div class="gallery container w-100">
                 <div class="mt-2 mb-5 row w-100">
@@ -127,8 +133,9 @@
                     <lottie-player class="ml-4" src="https://assets6.lottiefiles.com/packages/lf20_drotaibc.json" background="transparent" speed="0.6" style="width: 50px; height: 50px;" loop autoplay></lottie-player>
                 </div>
 
-                <div class="container-fluid footer active container-fluid">
-                    <hr class="main-hr" />
+            <!-- footer section start ************************************ -->
+            <div style="background: url('images/background-shape.png');">
+                <div class="container footer active">
                     <div class="row">
                         <div class="logo col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
                             <img src="img/logo.png" alt="" />
@@ -139,20 +146,26 @@
                         </div>
                         <div class="social-media logo col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
                             <h3 class="mb-5">Social Media Links</h3>
-                                <div class="d-flex-full">
-                                    <i class="fa-brands fa-instagram"></i>
-                                    <p>Instagram</p>
-                                </div>
+                                <a href="https://www.instagram.com/buyend_/">
+                                    <div class="d-flex-full">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <p>Instagram</p>
+                                    </div>
+                                </a>
     
-                                <div class="d-flex-full">
-                                    <i class="fa-brands fa-youtube"></i>
-                                    <p>Youtube</p>
-                                </div>
+                                <a href="">
+                                    <div class="d-flex-full">
+                                        <i class="fa-brands fa-youtube"></i>
+                                        <p>Youtube</p>
+                                    </div>
+                                </a>
     
-                                <div class="d-flex-full">
-                                    <i class="fa-brands fa-facebook"></i>
-                                    <p>Facebook</p>
-                                </div>
+                                <a href="">
+                                    <div class="d-flex-full">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <p>Facebook</p>
+                                    </div>
+                                </a>
                         </div>
     
     
@@ -182,12 +195,16 @@
                             <p><i class="mr-3 fa-solid fa-envelope"></i>info@buyend.in</p>
                         </div>
                     </div>
+
+                </div>
+                <div style="background: url('images/background-shape.png');" class="footer act">
                     <hr class="main-hr main-hr-2" />
-                    <p class="copy-right text-center">
-                        &#169; buyend.in | All rights reserved
+                    <p class="m-0 pb-3 copy-right text-center">
+                        &#169; buyend.in | All rights reserved | Designed By Mentegoz Technologies
                     </p>
                 </div>
-                <!-- footer section end ************************************ -->
+            </div>
+            <!-- footer section end ************************************ -->
         </div>
 
         <!-- loader section start ------------------------  -->
