@@ -74,16 +74,22 @@ body {
 .navbar {
     width: 100%;
     background: white;
-    padding: 15px 150px !important;
+    padding: 15px 5% !important;
 }
-.navbar .logo {
+.navbar .logo.active {
     width: 80px;
+    transition: 0.4s;
+}
+.navbar .logo{
+    transition: 0.4s;
+    width: 50px;
 }
 .navbar ul li {
     margin-right: 30px;
 }
 .navbar ul {
     margin-bottom: 0;
+    margin-left: 100px;
 }
 .navbar ul li a {
     color: rgb(4, 4, 4);
@@ -148,86 +154,180 @@ body {
 /* hero section css starts ////////////////////////////////////////////  */
 .hero {
     width: 100%;
-    height: 85vh;
-    margin: auto !important;
+    padding: 0px 5%;
+    min-height: 80vh;
+    margin: 70px auto 80px !important;
     position: relative;
 }
-.hero img {
-    width: 100%;
-    height: 100%;
-}
-
-.hero h1 {
+.hero .left-section img.bag{
     position: absolute;
-    left: 100px;
-    top: 200px;
-    /* font-family: 'Poppins', serif; */
-    /* font-family: 'Oleo Script Swash Caps', cursive; */
-    /* font-family: 'Acme', sans-serif; */
+    z-index: 11;
+    width: 150px;
+    top: 0px;
+    left: -85px;
+    opacity: 0.2;
+    animation: animatebg infinite 30s;
+}
+.gallery-star{
+    width: 150px;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    opacity: 0.4;
+    animation: staranimate 25s infinite;
+}
+@keyframes staranimate {
+    0%{
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateX(25px);
+        transform: translateY(25px);
+    }
+    50%{
+        transform: translateX(50px);
+        transform: translateY(55px);
+    }
+    75%{
+        transform: translateX(-50px);
+        transform: translateY(-80px);
+    }
+}
+.background-img-about{
+    position: absolute;
+    width: 150px;
+    top: 0px;
+    left: -60px;
+    z-index: 11;
+    opacity: 0.2;
+    animation: animatebg infinite 30s;
+}
+.background-img-about-2{
+    position: absolute;
+    width: 150px;
+    z-index: 11;
+    top: 0px;
+    right: 60px;
+    opacity: 0.2;
+    animation: animatebg infinite 30s;
+}
+.background-img-about-3{
+    position: absolute;
+    width: 150px;
+    bottom: 50px;
+    right: 60px;
+    opacity: 0.2;
+    animation: animatebg infinite 30s;
+}
+.hero .left-section .arrow{
+    width: 150px;
+    position: absolute;
+    bottom: 110px;
+    right: 0px;
+}
+@keyframes animatebg{
+    0%,100%{
+        transform: translateX(0px);
+        transform: translateX(25px);
+    }
+    25%{
+        transform: translateX(50px);
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    750%{
+        transform: translateX(150px);
+    }
+
+}
+.hero .right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero img{
+    width: 700px;
+}
+.hero .left-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.navbar .nav-icons i{
+    color: #00aaae;
+    font-size: 22px;
+    margin-right: 12px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.hero h1 {
     font-family: "Poppins", serif;
-    font-size: 4.2rem;
+    font-size: 2.8rem;
+    margin-bottom: 35px;
+    padding-right: 25%;
     font-weight: bold;
     color: rgb(12, 98, 113);
 }
-.hero .h1-2 {
+.hero p {
     font-family: "Poppins", sans-serif;
-    /* font-family: 'Oleo Script Swash Caps', cursive; */
-    top: 290px;
-    font-size: 1.5rem;
+    font-size: 16px;
+    padding-right: 236px;
 }
-.hero .button-flex {
-    position: absolute;
-    top: 380px;
-    left: 100px;
+.hero button {
+    width: 150px;
+    padding: 8px;
+    color: white;
+    background: #00aaae;
+    margin-top: 10px;
+    border: 1px solid #00aaae;
+    transition: 0.4s;
+    margin-bottom: 20px;
+    border-radius: 2px;
 }
-@media screen and (max-width: 1000px) {
-    .hero img {
-        display: none;
-    }
-    .hero {
-        background: url('/images/bg-2.png') no-repeat;
-        background-size: cover;
-        background-position: top center;
-    }
+.hero button:hover{
+    color: #00aaae;
+    background: white;
+}
+@media screen and (max-width: 1200px) {
     .hero h1 {
-        /* display: none; */
-        font-size: 3rem;
-        left: 100px;
-        top: 70px;
-    }
-    .hero .h1-2 {
-        top: 130px;
-        font-size: 1.1rem;
-    }
-    .hero button {
-        display: none;
-    }
-    .hero lottie-player {
-        display: none;
-    }
-}
-@media screen and (max-width: 400px) {
-    .hero {
-        background: url('/images/bg-3.png') no-repeat;
-        background-size: cover;
-        background-position: top center;
-    }
-    .hero h1 {
-        /* display: none; */
+        font-family: "Poppins", serif;
         font-size: 2rem;
-        left: 100px;
-        top: 70px;
+        margin-bottom: 35px;
+        font-weight: bold;
+        color: rgb(12, 98, 113);
     }
-    .hero .h1-2 {
-        top: 130px;
-        font-size: 1rem;
+    .hero .left-section{
+        margin-top: 50px;
     }
+}
+@media screen and (max-width: 420px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .hero .left-section .arrow{
+        display: none;
+    }
+    .hero h1{
+        padding-right: 0px;
+    }
+    .hero p{
+        padding-right: 0px;
+    }
+
 }
 /* hero section  end ******************************************  */
 
 /* home css start -----------------------------------------------------  */
 .home {
-    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     margin: auto !important;
     /* height: 85vh; */
 }
@@ -243,21 +343,21 @@ body {
     align-items: center;
 }
 .home .left-section .image {
-    width: 70%;
+    width: 80%;
 }
 .home .right-section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding: 5px 40px !important;
 }
 .home .right-section h3 {
-    font-size: 20px;
+    font-size: 34px;
     margin-bottom: 20px;
     font-weight: bold;
     font-family: "Poppins", serif;
     color: #00aaae;
+    line-height: 41px;
 }
 .home .right-section p {
     font-size: 15px;
@@ -284,6 +384,9 @@ body {
 .swiper-slide {
     background-position: center;
     background-size: cover;
+    background: #00aaae;
+    color: white;
+    border-radius: 15px;
 }
 
 .swiper-slide .lottie,
@@ -318,6 +421,7 @@ font-family: 'Uchen', serif; */
 /* home css end -----------------------------------------------------  */
 
 /* about css start ************************************  */
+
 .txt{
     position: absolute;
     top: 15px;
@@ -486,9 +590,10 @@ font-family: 'Uchen', serif; */
 
 /* product css start **************************************** */
 .gallery {
-    padding-top: 55px 30px 0px 30px;
     display: flex;
     justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
     align-items: center;
     flex-direction: column;
     margin: 0px auto 0px !important;
@@ -554,7 +659,7 @@ font-family: 'Uchen', serif; */
 /* why us section css start  */
 .why-us {
     height: auto;
-    margin: auto !important;
+    margin: 90px auto 180px !important;
 }
 .why-us.about {
     margin: auto !important;
@@ -563,24 +668,17 @@ font-family: 'Uchen', serif; */
 
 .why-us .color {
     display: flex;
-    background: #e0d7e9;
+    background: #00aaae;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
     min-height: 270px;
+    color: white;
     padding: 15px;
     margin-top: 20px;
 }
-.why-us .color-2 {
-    background: #e9f3cb;
-}
-.why-us .color-3 {
-    background: #fbd0e2;
-}
-.why-us .color-4 {
-    background: #fbd9db;
-}
+
 .why-us .color i {
     font-size: 2.5rem;
     padding: 20px;
@@ -603,6 +701,7 @@ font-family: 'Uchen', serif; */
 }
 .why-us h1 {
     color: #00aaae;
+    font-size: 37px;
 }
 .why-us hr {
     margin-bottom: 30px !important;
@@ -663,25 +762,62 @@ font-family: 'Uchen', serif; */
 }
 /* banner section css end  */
 
+.gallery-bag{
+    position: absolute;
+    width: 200px;
+    opacity: 0.1;
+    top: 0px;
+    left: 0px;
+}
+.gallery-bag-1{
+    position: absolute;
+    width: 200px;
+    opacity: 0.1;
+    top: 50%;
+    right: 0px;
+}
+.gallery-bag-2{
+    position: absolute;
+    width: 200px;
+    opacity: 0.1;
+    bottom: 200px;
+    left: 0px;
+}
 
 
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    outline: none !important;
+}
 
-
-
-
-
-
+.owl-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+.carousel-arrow{
+    color: white;
+    background: #00aaae;
+    padding: 10px 13px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
 .features-section{
-    padding: 100px 10px;
+    margin-top: 180px;
+    margin-bottom: 80px;
     position: relative;
   }
   
-  .features-section .left{
+  /* .features-section .left{
     background-image: url("../images/banner-4.png") ;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
-  }
+  } */
   
   
   
@@ -712,6 +848,12 @@ font-family: 'Uchen', serif; */
     color: white;
     margin-left: 60px;
 }
+.office-txt{
+    display: none;
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
 @media screen and (max-width: 750px) {
     .features-section .left{
         background-image: url("") ;
@@ -725,8 +867,21 @@ font-family: 'Uchen', serif; */
         color: #00aaae;
         font-size: 25px;
     }
+    .office-img{
+        display: none;
+    }
+    .office-txt{
+        display: block;
+    }
+
 }
 
+.dots{
+    position: absolute;
+    width: 250px;
+    top: 65px;
+    right: 134px;
+}
 
 /* product section css start -----------------------  */
 .product-slider {
@@ -739,16 +894,22 @@ font-family: 'Uchen', serif; */
 }
 .product-slider h3 {
     font-family: "Poppins";
-    margin-top: -65px;
+    margin-top: -70px;
     font-size: 20px;
     font-weight: bold;
 }
 /* product section css end -----------------------  */
 
 /* foooter section start  */
+.txt-why-us{
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    width: 50%;
+    margin: 0px auto 30px;
+}
 
 .footer {
-    padding: 150px 100px 0px 100px !important;
+    margin-top: 80px;
 }
 .footer .logo,
 .footer .contact-us {
@@ -919,10 +1080,21 @@ font-family: 'Uchen', serif; */
         margin-top: 50px;
         padding-bottom: 10px !important;
     }
+    .txt-why-us{
+        font-size: 16px;
+        font-family: 'Poppins',sans-serif;
+        width: 70%;
+        margin: 0px auto 30px;
+    }
 }
 @media screen and (max-width: 450px) {
     .button-view {
         font-size: 14px;
+    }
+    .txt-why-us{
+        font-size: 16px;
+        font-family: 'Poppins',sans-serif;
+        margin: 0px auto 30px;
     }
 }
 @media screen and (max-width: 350px) {
