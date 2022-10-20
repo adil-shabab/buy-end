@@ -13,14 +13,26 @@ myFunction()
 
 
 
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 90) {
+     $('.navbar').addClass('shadow sticky-top');
+     $('.logo').removeClass('active');
+    } else {
+    $('.logo').addClass('active');
+     $('.navbar').removeClass('shadow');
+  }
+});
+
 
 // feature carousel
 $(document).ready(function(){
   $('.feature-carousel').owlCarousel({
       loop:true,
       margin:10,
-      nav:false,
+      nav:true,
       dots:true,
+      navText: ["<i class='carousel-arrow fa-solid fa-chevron-left'></i>","<i class='carousel-arrow fa-solid fa-chevron-right'></i>"],
+
       responsive:{
           0:{
               items:1
@@ -62,6 +74,7 @@ closebar.addEventListener('click', function(){
 var swiper = new Swiper(".mySwiper", {
     effect: "flip",
     grabCursor: true,
+
     autoplay: {
         delay: 8000,
         disableOnInteraction: false,
@@ -110,4 +123,5 @@ var swiper = new Swiper(".mySwiper", {
     },
   loop: true,
 });
+
 
